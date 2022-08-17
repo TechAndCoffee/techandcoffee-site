@@ -1,0 +1,41 @@
+---
+export interface Props {
+	title: string;
+}
+
+const { title } = Astro.props as Props;
+import "../style/main.css";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<div
+			class="min-h-screen bg-white-900 w-full sm:w-3/5 xl:w-4/5 max-w-screen-lg mx-auto px-5 pb-0 sm:pb-5"
+		>
+			<header
+				class="text-center py-10 mb-2.5 text-sm font-semibold"
+			>
+				<nav
+					class="flex flex-col md:flex-row items-center border-b border-blue-700 mb-5 pb-2.5"
+				>
+					<ul class="flex gap-5 flex-1 items-center">
+						<li><a href="/">Home</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/graphics">Graphics</a></li>
+						<li><a href="/hangouts">Hangouts</a></li>
+						<li><a href="/rules">Rules</a></li>
+					</ul>
+				</nav>
+			</header>
+			<slot />
+		</div>
+	</body>
+</html>

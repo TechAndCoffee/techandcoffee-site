@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import hangoutsList from '../data/hangouts.json';
+const hangouts = hangoutsList;
+---
+
+<Layout title="Tech and Coffee hangouts">
+	<main>
+		<article>
+			<h1 class="text-4xl font-semibold mb-10">Tech and Coffee hangouts</h1>
+			<slot />
+			<section>
+				<h2 class="mb-3 text-xl font-semibold">Hangouts list</h2>
+				<div class="grid grid-cols-2 gap-2">
+					{hangouts.hangouts.map((option) => (
+						<Card
+							href={option.link}
+							title={option.name}
+						/>
+					))}
+				</div>
+			</section>
+		</article>
+	</main>
+</Layout>

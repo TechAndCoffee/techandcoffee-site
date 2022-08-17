@@ -1,0 +1,32 @@
+{
+   "hangouts": [
+      {
+         "name": "Telegram",
+         "link": "https://t.me/techandcoffee0"
+      },
+      {
+         "name": "Discord",
+         "link": "https://discord.gg/Msy2RJ"
+      },
+      {
+         "name": "Jitsi main room",
+         "link": "https://meet.jit.si/techandcoffee"
+      },
+      {
+         "name": "Jitsi second room",
+         "link": "https://meet.jit.si/tech%20and%20coffee"
+      }, 
+      {
+         "name": "Jitsi insecure room",
+         "link": "https://meet.jit.si/tac"
+      },
+      {
+         "name": "Google Chat main",
+         "link": "https://chat.google.com/room/AAAAZBnYljo/kfCeSCdF5i8"
+      },
+      {
+         "name": "Google Chat secondary",
+         "link": "https://chat.google.com/room/AAAAkzJdQfE/gaz337NvoZA"
+      }
+   ]
+}

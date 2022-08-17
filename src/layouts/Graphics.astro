@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Base.astro';
+import Photo from '../components/Photo.astro';
+import mediaPhotos from '../data/photos.json';
+import mediaLinks from '../data/links.json';
+const links = mediaLinks;
+const photos = mediaPhotos
+---
+
+<Layout title="Tech and Coffee graphics">
+   <main>
+      <article>
+         <h1 class="text-4xl font-semibold mb-3;">Tech and Coffee graphics</h1>
+         <section>
+            <h2 class="mb-3 text-2xl font-semibold">Graphics library</h2>
+            <div class="container grid grid-cols-2 gap-2 mx-auto">
+               {mediaPhotos.photos.map((photo) => (
+                  <Photo
+							href={photo.url}
+							title={photo.title}
+                     description={photo.description}
+                     inverted={photo.inverted}
+                     download_url={photo.download_url}
+						/>
+               ))}
+             </div>
+         </section>
+         <hr />
+         <section>   
+            <h2 class="mb-3 text-2xl font-semibold">Media links</h2>
+            {mediaLinks.links.map((option) => (
+               <h3 class="mb-3 mt-3 text-lg font-semibold">{option.name}</h3>
+               <ul class="list-inside list-disc ml-4">
+                  {option.links.map((link) => (
+                     <li>
+                        <a href={link.url}>{link.name}</a>
+                     </li>
+                     ))}
+               </ul>
+            ))}
+         </section>
+      </article>
+   </main>
+</Layout>
