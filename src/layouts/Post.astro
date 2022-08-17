@@ -7,7 +7,7 @@ const { content } = Astro.props;
 <Layout title={`Tech and Coffee- ${content.title}`}>
   <main>
     <article>
-      <h1 style="font-bold">{content.title}</h1>
+      <h1 class="font-bold">{content.title}</h1>
       <slot />
     </article>
   </main>

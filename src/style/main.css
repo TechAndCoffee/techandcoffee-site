@@ -8,12 +8,6 @@ main {
   @apply mx-auto;
 }
 
-hr {
-  @apply border-dashed;
-  @apply dark:border-white;
-  @apply my-6;
-}
-
 article {
    @apply font-serif;
  }
@@ -100,4 +94,10 @@ article li::marker {
   @apply font-bold;
   @apply text-blue-500;
   @apply dark:text-blue-300;
+}
+
+article hr {
+  @apply border-dashed;
+  @apply dark:border-white;
+  @apply my-6;
 }
