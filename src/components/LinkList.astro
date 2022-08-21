@@ -6,6 +6,8 @@ interface Links {
 
 interface File {
    name: string;
+   icon?: string;
+   description?: string;
    links: Array<Links>;
 }
 
@@ -25,26 +27,40 @@ const { list } = Astro.props as Props;
             list.map((option) => (
                <li class="py-3 sm:py-4">
                   <div class="flex items-center space-x-4">
-                     <div class="flex-1 min-w-0">
-                        <p class="text-lg font-medium text-gray-900 truncate dark:text-white">
+                     {option.icon && (
+                        <div class="flex-shrink-0">
+                           <img
+                              class="w-8 h-8 rounded-full"
+                              src={option.icon}
+                              alt=""
+                           />
+                        </div>
+                     )}
+                     <div class="flex-1">
+                        <p class="hidden sm:inline-flex text-lg font-medium text-gray-900 truncate dark:text-white">
                            {option.name}
                         </p>
+                        {option.description && (
+                           <p class="text-sm text-gray-500 truncate dark:text-gray-400 hidden md:flex">
+                              {option.description}
+                           </p>
+                        )}
                      </div>
                      {option.links.length > 1 && (
-                        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+                        <ul class="divide-y divide-gray-200 dark:divide-gray-700 w-fit">
                            {option.links.map((item) => (
                               <li class="py-3 sm:py-4">
-                                 <div class="flex items-center space-x-4">
+                                 <a
+                                    target="_blank"
+                                    href={item.url}
+                                    class="flex items-center space-x-4"
+                                 >
                                     <div class="flex-1 min-w-0">
-                                       <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                       <p class="text-right text-sm font-medium text-gray-900 truncate dark:text-white overflow-ellipsis">
                                           {item.name}
                                        </p>
                                     </div>
-                                    <a
-                                       target="_blank"
-                                       href={item.url}
-                                       class="hover:underline inline-flex items-center text-sm font-semibold text-gray-900 dark:text-white"
-                                    >
+                                    <p class="hover:underline hidden md:inline-flex items-center text-sm font-semibold text-gray-900 dark:text-white">
                                        Open&nbsp;
                                        <svg
                                           xmlns="http://www.w3.org/2000/svg"
@@ -55,8 +71,8 @@ const { list } = Astro.props as Props;
                                           <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                                           <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
                                        </svg>
-                                    </a>
-                                 </div>
+                                    </p>
+                                 </a>
                               </li>
                            ))}
                         </ul>
@@ -65,7 +81,7 @@ const { list } = Astro.props as Props;
                         <a
                            target="_blank"
                            href={option.links[0].url}
-                           class="hover:underline inline-flex items-center text-base font-semibold text-gray-900 dark:text-white"
+                           class="hover:underline inline-flex items-center text-sm md:text-base font-semibold text-gray-900 dark:text-white"
                         >
                            Open&nbsp;
                            <svg

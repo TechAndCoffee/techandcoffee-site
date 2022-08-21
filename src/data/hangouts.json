@@ -1,46 +1,64 @@
 {
-   "hangouts": [
+   "links": [
       {
          "name": "Telegram",
-         "link": "https://t.me/techandcoffee0",
-         "body": "Our main daily text and voice room",
-         "image": "/icons/telegram.svg"
+         "icon": "/icons/telegram.svg",
+         "description": "Our main voice and text chat platform",
+         "links": [
+            {
+               "name": "Main",
+               "url": "https://t.me/techandcoffee0"
+            },
+            {
+               "name": "Thunderdome (18+)",
+               "url": "https://t.me/+z41k69HVuBVhYzlh"
+            }
+         ]
       },
       {
          "name": "Discord",
-         "link": "https://discord.gg/Msy2RJ",
-         "body": "Conversations broken down by topic",
-         "image": "/icons/discord.svg"
+         "description": "Conversations broken down by topic",
+         "icon": "/icons/discord.svg",
+         "links": [
+            {
+               "name": "T&C server",
+               "url": "https://discord.gg/Msy2RJ"
+            }
+         ]
       },
       {
-         "name": "Jitsi main room",
-         "link": "https://meet.jit.si/techandcoffee",
-         "body": "Our main video hangout",
-         "image": "/icons/jitsi.svg"
+         "name": "Jitsi",
+         "description": "Video hangouts hosted on free software",
+         "icon": "/icons/jitsi.png",
+         "links": [
+            {
+               "name": "Main room",
+               "url": "https://meet.jit.si/techandcoffee"
+            },
+            {
+               "name": "Second room",
+               "url": "https://meet.jit.si/tech%20and%20coffee"
+            },
+            {
+               "name": "Third room",
+               "url": "https://meet.jit.si/tac"
+            }
+         ]
       },
       {
-         "name": "Jitsi second room",
-         "link": "https://meet.jit.si/tech%20and%20coffee",
-         "body": "A backup video hangout",
-         "image": "/icons/jitsi.svg"
-      }, 
-      {
-         "name": "Jitsi third room",
-         "link": "https://meet.jit.si/tac",
-         "body": "Another backup room, just in case",
-         "image": "/icons/jitsi.svg"
-      },
-      {
-         "name": "Google main chat",
-         "link": "https://chat.google.com/room/AAAAZBnYljo/kfCeSCdF5i8",
-         "body": "Our main Google Chat space",
-         "image": "/icons/google_chat.svg"
-      },
-      {
-         "name": "Google side chat",
-         "link": "https://chat.google.com/room/AAAAkzJdQfE/gaz337NvoZA",
-         "body": "Our Google Chat side channel",
-         "image": "/icons/google_chat.svg"
+         "name": "Google Chat",
+         "description": "Our Google Chat spaces",
+         "icon": "/icons/google_chat.svg",
+         "links": [
+            {
+               "name": "Main room",
+               "url": "https://chat.google.com/room/AAAAZBnYljo/kfCeSCdF5i8"
+            },
+            {
+               "name": "Side room",
+               "url": "https://chat.google.com/room/AAAAkzJdQfE/gaz337NvoZA"
+            }
+         ]
       }
    ]
 }

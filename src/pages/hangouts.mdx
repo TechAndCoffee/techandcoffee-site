@@ -3,38 +3,32 @@ layout: ../layouts/Post.astro
 title: Hangouts
 ---
 
-import hangouts from "../data/hangouts.json"
-import Card from "../components/Card.astro"
+import hangoutsList from "../data/hangouts.json"
+import Card from "../components/Card.astro";
+import LinkList from "../components/LinkList.astro";
 
 ## A Virtual Water Cooler For The World of Tech
 
-Tech and Coffee #publichangouts is run by a bunch of tech savvy people. Below are a few examples of the topics we may discuss; but you will find that we often stray off topic and just shoot the sh!t.
+Tech and Coffee #publichangouts are a bunch of tech savvy people hanging out. Below are a few examples of the topics we may discuss. You'll find that we often stray off topic and devolve into rambling.
 
-- Linux / Windows / Mac / UNIX
-- General Computing
-- Mobile Devices
-- Code / Hacking
-- Videography & Photography
+- Linux/Windows/macOS/UNIX
+- General computing
+- Mobile devices
+- Code/hacking
+- Videography & photography
 - Coffee
 - Sleeping
-- News and Current Events
+- News and current events
 - Discussing the old glory days of G+
 
-We are the original "and Coffee" hangout. There are a few clones out there - don't be fooled; make sure that one of our admins or hosts are in the room.
+We are the original "and Coffee" hangout. There are a few clones out there but don't be fooled! Make sure one of our admins is in the room.
 
 ---
 
-<section class="prose dark:prose-invert lg:prose-xl prose-h2:text-center max-w-full items-center">
-   <h2>Hangouts list</h2>
-   <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full justify-items-center">
-      {hangouts.hangouts.map((option) => (
-         <Card
-            href={option.link}
-            title={option.name}
-            body={option.body}
-            image={option.image}
-            label="Join hangout"
-         />
-      ))}
-   </div>
-</section>
+## Hangouts list
+
+<div class="w-full not-prose">
+   {
+      <LinkList list={hangoutsList.links}></LinkList>
+   }
+</div>
