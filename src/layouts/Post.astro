@@ -1,13 +1,14 @@
 ---
 import Layout from "../layouts/Base.astro";
-import "../style/main.css";
 const { content } = Astro.props;
 ---
 
 <Layout title={`Tech and Coffee- ${content.title}`}>
-  <main>
-    <article>
-      <h1 class="font-bold">{content.title}</h1>
+  <main class="max-w-prose mx-auto">
+    <article
+      class="prose dark:prose-invert lg:prose-xl prose-h1:text-center prose-h2:text-center prose-a:text-blue-700 hover:prose-a:text-blue-900 visited:prose-a:text-purple-800 dark:prose-a:text-blue-300 dark:hover:prose-a:text-blue-500 dark:visited:prose-a:text-purple-500 prose-blockquote:border-blue-700 dark:prose-blockquote:border-blue-500"
+    >
+      <h1>{content.title}</h1>
       <slot />
     </article>
   </main>

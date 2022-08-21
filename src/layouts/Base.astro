@@ -4,7 +4,6 @@ export interface Props {
 }
 
 const { title } = Astro.props as Props;
-import "../style/main.css";
 ---
 
 <!DOCTYPE html>
@@ -60,7 +59,7 @@ import "../style/main.css";
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body>
+	<body class="dark:bg-neutral-800 dark:text-white">
 		<div
 			class="min-h-screen bg-white-900 w-full sm:w-3/5 xl:w-4/5 max-w-screen-lg mx-auto px-5 pb-0 sm:pb-5"
 		>
