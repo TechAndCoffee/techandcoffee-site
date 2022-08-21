@@ -1,14 +1,14 @@
 {
    "photos": [
       {
-         "url": "https://rootkey.fra1.cdn.digitaloceanspaces.com/tac/tac_logo_hires.webp",
+         "url": "/images/tac_logo_hires.webp",
          "title": "Tech and Coffee logo (hi res)",
          "description": "A high resolution render of the TAC logo",
          "inverted": false,
          "download_url": "https://photos.app.goo.gl/NFN8N8ypgbFMZuMp9"
       },
       {
-         "url": "https://rootkey.fra1.cdn.digitaloceanspaces.com/tac/tac_logo_inverted.webp",
+         "url": "/images/tac_logo_inverted.webp",
          "title": "Tech and Coffee logo (inverted)",
          "description": "An inverted high resolution render of the TAC logo",
          "inverted": true,
@@ -16,42 +16,42 @@
 
       },
       {
-         "url": "https://rootkey.fra1.cdn.digitaloceanspaces.com/tac/tac_logo_standard.webp",
+         "url": "/images/tac_logo_standard.webp",
          "title": "Tech and Coffee logo (standard)",
          "description": "A standard render of the TAC logo", 
          "inverted": false,
          "download_url": "https://photos.app.goo.gl/RQF96z8Ex6BtTUmM7"
       },
       {
-         "url": "https://rootkey.fra1.cdn.digitaloceanspaces.com/tac/tac_sticker_light.webp",
+         "url": "/images/tac_sticker_light.webp",
          "title": "Tech and Coffee sticker",
          "description": "A sticker of the TAC logo and QR code",
          "inverted": false,
          "download_url": "https://photos.app.goo.gl/YenLMNSMvFf94QEj8"
       },
       {
-         "url": "https://rootkey.fra1.cdn.digitaloceanspaces.com/tac/tac_sticker_dark.webp",
+         "url": "/images/tac_sticker_dark.webp",
          "title": "Tech and Coffee sticker (dark)",
          "description": "A dark sticker of the TAC logo and QR code",
          "inverted": true,
          "download_url": "https://photos.app.goo.gl/MPNqR9tF4zYgJvJU7"
       },
       {
-         "url": "https://rootkey.fra1.cdn.digitaloceanspaces.com/tac/tac_poster_light.webp",
+         "url": "/images/tac_poster_light.webp",
          "title": "Tech and Coffee poster",
          "description": "A poster that reads \"I drink coffee for your protection\"",
          "inverted": false,
          "download_url": "https://photos.app.goo.gl/GFFzyjGG4QJEeoPm6"
       },
       {
-         "url": "https://rootkey.fra1.cdn.digitaloceanspaces.com/tac/tac_poster_dark.webp",
+         "url": "/images/tac_poster_dark.webp",
          "title": "Tech and Coffee poster (dark)",
          "description": "A black poster with the TAC logo",
          "inverted": true,
          "download_url": "https://photos.app.goo.gl/EY5CNNaqpKDCj64G7"
       },
       {
-         "url": "https://rootkey.fra1.cdn.digitaloceanspaces.com/tac/qrcode.png",
+         "url": "/images/qrcode.png",
          "title": "Tech and Coffee QR code",
          "description": "A link to techandcoffee.info",
          "inverted": false,
