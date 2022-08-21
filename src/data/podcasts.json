@@ -2,7 +2,7 @@
    "podcasts": [
       {
          "name": "The Bugcast",
-         "url": "https://thebugcast.org/",
+         "link": "https://thebugcast.org/",
          "icon": "/icons/bugcast.png",
          "chatLink": "https://t.me/joinchat/AAAAAAEjuukGMN_wFVSdfQ",
          "chatName": "Telegram",
@@ -10,21 +10,21 @@
       },
       {
          "name": "Full Circle Magazine",
-         "url": "https://fullcirclemagazine.org/podcast/",
-         "icon": "icons/fullcircle.svg",
+         "link": "https://fullcirclemagazine.org/podcast/",
+         "icon": "/icons/fullcircle.svg",
          "body": "The independent magazine for the Ubuntu Linux community"
       },
       {
          "name": "Insomnia Radio Canada",
-         "url": "https://insomniaradio.net/category/ir-regional/ir-canada/",
-         "icon": "icons/insomnia_radio.jpeg",
+         "link": "https://insomniaradio.net/category/ir-regional/ir-canada/",
+         "icon": "/icons/insomnia_radio.jpeg",
          "chatLink": "https://t.me/joinchat/DME5VBWKR8mj0whoHriyLw",
          "chatName": "Telegram",
          "body": "Kill your FM"
       },
       {
          "name": "Linux Lads",
-         "url": "https://linuxlads.com/",
+         "link": "https://linuxlads.com/",
          "icon": "/icons/linux_lads.png",
          "chatLink": "https://t.me/linuxlads",
          "chatName": "Telegram",
@@ -32,25 +32,25 @@
       },
       {
          "name": "mintCast",
-         "url": "https://mintcast.org/",
+         "link": "https://mintcast.org/",
          "icon": "/icons/mintcast.png",
          "body": "The podcast by the Linux Mint community for all users of Linux"
       },
       {
          "name": "Morning Mana",
-         "url": "https://www.spreaker.com/user/blueridgebruce",
+         "link": "https://www.spreaker.com/user/blueridgebruce",
          "icon": "/icons/morning_mana.jpeg",
          "body": "A Monday-Friday devotional podcast"
       },
       {
          "name": "Tea, Earl Grey, Hot",
-         "url": "https://teaearlgreyhot.org/",
+         "link": "https://teaearlgreyhot.org/",
          "icon": "/icons/tea_earl_grey_hot.webp",
          "body": "An unofficial Star Trek podcast, from the Other Side Podcast Network"
       },
       {
          "name": "Tuxjam",
-         "url": "https://tuxjam.otherside.network/",
+         "link": "https://tuxjam.otherside.network/",
          "icon": "/icons/tuxjam.jpeg",
          "body": "Mixing Open Source with Creative Commons goodness",
          "chatLink": "https://t.me/podcrawl2021",
