@@ -41,6 +41,7 @@ const { list } = Astro.props as Props;
                                        </p>
                                     </div>
                                     <a
+                                       target="_blank"
                                        href={item.url}
                                        class="hover:underline inline-flex items-center text-sm font-semibold text-gray-900 dark:text-white"
                                     >
@@ -62,6 +63,7 @@ const { list } = Astro.props as Props;
                      )}
                      {option.links.length === 1 && (
                         <a
+                           target="_blank"
                            href={option.links[0].url}
                            class="hover:underline inline-flex items-center text-base font-semibold text-gray-900 dark:text-white"
                         >
