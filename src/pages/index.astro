@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/Base.astro";
+import socialLinks from '../data/social.json';
+const links = socialLinks;
 ---
 
 <Layout title="Tech and Coffee">
@@ -23,6 +25,13 @@ import Layout from "../layouts/Base.astro";
 		</div>
 		<section>
 			<h2>Social links</h2>
+			<div class="flex space-x-4 justify-center">
+				{links.networks.map((option) => (
+					<a href={option.url} title={option.name}>
+						<img class="w-6 h-6 md:w-10 md:h-10" src={option.icon} alt="" />
+					</a>
+				))}
+		  </div>
 		</section>
 	</main>
 </Layout>

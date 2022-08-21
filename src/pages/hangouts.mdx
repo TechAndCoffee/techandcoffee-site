@@ -1,7 +1,10 @@
 ---
-layout: ../layouts/Hangouts.astro
+layout: ../layouts/Post.astro
 title: Hangouts
 ---
+
+import hangouts from "../data/hangouts.json"
+import Card from "../components/Card.astro"
 
 ## A Virtual Water Cooler For The World of Tech
 
@@ -18,3 +21,20 @@ Tech and Coffee #publichangouts is run by a bunch of tech savvy people. Below ar
 - Discussing the old glory days of G+
 
 We are the original "and Coffee" hangout. There are a few clones out there - don't be fooled; make sure that one of our admins or hosts are in the room.
+
+---
+
+<section class="prose dark:prose-invert lg:prose-xl prose-h2:text-center max-w-full items-center">
+   <h2>Hangouts list</h2>
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full justify-items-center">
+      {hangouts.hangouts.map((option) => (
+         <Card
+            href={option.link}
+            title={option.name}
+            body={option.body}
+            image={option.image}
+            label="Join hangout"
+         />
+      ))}
+   </div>
+</section>

@@ -1,0 +1,14 @@
+{
+   "networks": [
+      {
+         "name": "Facebook",
+         "url": "https://www.facebook.com/groups/235862447081805",
+         "icon": "/icons/facebook.svg"
+      },
+      {
+         "name": "Twitter",
+         "url": "https://twitter.com/techandcoffee1",
+         "icon": "/icons/twitter.svg"
+      }
+   ]
+}
