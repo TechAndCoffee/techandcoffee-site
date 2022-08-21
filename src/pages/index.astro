@@ -1,17 +1,28 @@
 ---
-import Layout from '../layouts/Base.astro';
+import Layout from "../layouts/Base.astro";
 ---
 
 <Layout title="Tech and Coffee">
-	<main>
-		<h1 class="text-5xl mb-10 text-center">
-			Tech and Coffee
-		</h1>
-		<blockquote class="mb-10">
-			Bouncing ideas off the wall since 2011
-		</blockquote>
+	<main
+		class="prose max-w-full dark:prose-invert lg:prose-xl prose-h1:text-center prose-h2:text-center prose-a:text-blue-700 hover:prose-a:text-blue-900 visited:prose-a:text-purple-800 dark:prose-a:text-blue-300 dark:hover:prose-a:text-blue-500 dark:visited:prose-a:text-purple-500 prose-blockquote:border-blue-700 dark:prose-blockquote:border-blue-500"
+	>
+		<h1>Tech and Coffee</h1>
+		<h2>A virtual water cooler for the world of tech</h2>
+		<div class="container flex justify-center">
+			<picture>
+				<source
+					srcset="/images/tac_logo_inverted.webp"
+					media="(prefers-color-scheme: dark)"
+				/>
+				<img
+					alt=""
+					src="/images/tac_logo_hires.webp"
+					class="w-[250px] h-[213px] md:w-[500px] md:h-[425px]"
+				/>
+			</picture>
+		</div>
 		<section>
-			<h2 class="text-3xl mb-10 text-center">Social links</h2>
+			<h2>Social links</h2>
 		</section>
 	</main>
 </Layout>
