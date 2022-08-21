@@ -2,31 +2,45 @@
    "hangouts": [
       {
          "name": "Telegram",
-         "link": "https://t.me/techandcoffee0"
+         "link": "https://t.me/techandcoffee0",
+         "body": "Our main daily text and voice room",
+         "image": "/icons/telegram.svg"
       },
       {
          "name": "Discord",
-         "link": "https://discord.gg/Msy2RJ"
+         "link": "https://discord.gg/Msy2RJ",
+         "body": "Conversations broken down by topic",
+         "image": "/icons/discord.svg"
       },
       {
          "name": "Jitsi main room",
-         "link": "https://meet.jit.si/techandcoffee"
+         "link": "https://meet.jit.si/techandcoffee",
+         "body": "Our main video hangout",
+         "image": "/icons/jitsi.svg"
       },
       {
          "name": "Jitsi second room",
-         "link": "https://meet.jit.si/tech%20and%20coffee"
+         "link": "https://meet.jit.si/tech%20and%20coffee",
+         "body": "A backup video hangout",
+         "image": "/icons/jitsi.svg"
       }, 
       {
-         "name": "Jitsi insecure room",
-         "link": "https://meet.jit.si/tac"
+         "name": "Jitsi third room",
+         "link": "https://meet.jit.si/tac",
+         "body": "Another backup room, just in case",
+         "image": "/icons/jitsi.svg"
       },
       {
-         "name": "Google Chat main",
-         "link": "https://chat.google.com/room/AAAAZBnYljo/kfCeSCdF5i8"
+         "name": "Google main chat",
+         "link": "https://chat.google.com/room/AAAAZBnYljo/kfCeSCdF5i8",
+         "body": "Our main Google Chat space",
+         "image": "/icons/google_chat.svg"
       },
       {
-         "name": "Google Chat secondary",
-         "link": "https://chat.google.com/room/AAAAkzJdQfE/gaz337NvoZA"
+         "name": "Google side chat",
+         "link": "https://chat.google.com/room/AAAAkzJdQfE/gaz337NvoZA",
+         "body": "Our Google Chat side channel",
+         "image": "/icons/google_chat.svg"
       }
    ]
 }
