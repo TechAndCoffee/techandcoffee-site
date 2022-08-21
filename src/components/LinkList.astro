@@ -1,0 +1,86 @@
+---
+interface Links {
+   name: string;
+   url: string;
+}
+
+interface File {
+   name: string;
+   links: Array<Links>;
+}
+
+export interface Props {
+   list: Array<File>;
+}
+
+const { list } = Astro.props as Props;
+---
+
+<div
+   class="p-4 w-full bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
+>
+   <div class="flow-root">
+      <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+         {
+            list.map((option) => (
+               <li class="py-3 sm:py-4">
+                  <div class="flex items-center space-x-4">
+                     <div class="flex-1 min-w-0">
+                        <p class="text-lg font-medium text-gray-900 truncate dark:text-white">
+                           {option.name}
+                        </p>
+                     </div>
+                     {option.links.length > 1 && (
+                        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+                           {option.links.map((item) => (
+                              <li class="py-3 sm:py-4">
+                                 <div class="flex items-center space-x-4">
+                                    <div class="flex-1 min-w-0">
+                                       <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                          {item.name}
+                                       </p>
+                                    </div>
+                                    <a
+                                       href={item.url}
+                                       class="hover:underline inline-flex items-center text-sm font-semibold text-gray-900 dark:text-white"
+                                    >
+                                       Open&nbsp;
+                                       <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          class="h-5 w-5"
+                                          viewBox="0 0 20 20"
+                                          fill="currentColor"
+                                       >
+                                          <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                          <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                                       </svg>
+                                    </a>
+                                 </div>
+                              </li>
+                           ))}
+                        </ul>
+                     )}
+                     {option.links.length === 1 && (
+                        <a
+                           href={option.links[0].url}
+                           class="hover:underline inline-flex items-center text-base font-semibold text-gray-900 dark:text-white"
+                        >
+                           Open&nbsp;
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="h-5 w-5"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                           >
+                              <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                              <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                           </svg>
+                        </a>
+                     )}
+                  </div>
+               </li>
+            ))
+         }
+      </ul>
+   </div>
+</div>
