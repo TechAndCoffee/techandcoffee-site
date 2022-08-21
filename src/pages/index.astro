@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Base.astro";
-import socialLinks from '../data/social.json';
+import socialLinks from "../data/social.json";
 const links = socialLinks;
 ---
 
@@ -19,19 +19,31 @@ const links = socialLinks;
 				<img
 					alt=""
 					src="/images/tac_logo_hires.webp"
-					class="w-[250px] h-[213px] md:w-[500px] md:h-[425px]"
+					class="w-[250px] h-[213px] md:w-[500px] md:h-[425px] mr-12 md:mr-18 lg:mr-28"
 				/>
 			</picture>
 		</div>
 		<section>
-			<h2>Social links</h2>
+			<h2>Follow us on social media!</h2>
 			<div class="flex space-x-4 justify-center">
-				{links.networks.map((option) => (
-					<a href={option.url} title={option.name}>
-						<img class="w-6 h-6 md:w-10 md:h-10" src={option.icon} alt="" />
-					</a>
-				))}
-		  </div>
+				{
+					links.networks.map((option) => (
+						<a href={option.url} title={option.name}>
+							<picture>
+								<source
+									srcset={option.darkIcon}
+									media="(prefers-color-scheme: dark)"
+								/>
+								<img
+									class="m-8 h-8 md:w-10 md:h-10"
+									src={option.icon}
+									alt=""
+								/>
+							</picture>
+						</a>
+					))
+				}
+			</div>
 		</section>
 	</main>
 </Layout>
