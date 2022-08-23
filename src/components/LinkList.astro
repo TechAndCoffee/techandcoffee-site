@@ -37,12 +37,12 @@ const { list } = Astro.props as Props;
                               />
                            </div>
                         )}
-                        <div class="flex-1">
-                           <p class="hidden sm:inline-flex text-lg font-medium text-gray-900 truncate dark:text-white">
+                        <div class="flex-1 w-1/2">
+                           <p class="sm:inline-flex text-base md:text-lg font-medium text-gray-900 truncate dark:text-white overflow-hidden whitespace-nowrap overflow-ellipsis">
                               {option.name}
                            </p>
                            {option.description && (
-                              <p class="text-sm text-gray-500 truncate dark:text-gray-400 hidden md:flex">
+                              <p class="hidden text-sm text-gray-500 truncate dark:text-gray-400 lg:flex">
                                  {option.description}
                               </p>
                            )}
@@ -56,16 +56,16 @@ const { list } = Astro.props as Props;
                                        href={item.url}
                                        class="flex items-center space-x-4"
                                     >
-                                       <div class="flex-1 min-w-0">
-                                          <p class="text-right text-sm font-medium text-gray-900 truncate dark:text-white overflow-ellipsis">
+                                       <div class="flex-1">
+                                          <p class="text-right text-sm font-medium text-gray-900 truncate dark:text-white">
                                              {item.name}
                                           </p>
                                        </div>
                                        <p class="hover:underline hidden md:inline-flex items-center text-sm font-semibold text-gray-900 dark:text-white">
-                                          Open&nbsp;
+                                          Open
                                           <svg
                                              xmlns="http://www.w3.org/2000/svg"
-                                             class="h-5 w-5"
+                                             class="h-5 w-5 ml-1"
                                              viewBox="0 0 20 20"
                                              fill="currentColor"
                                           >
@@ -84,10 +84,10 @@ const { list } = Astro.props as Props;
                               href={option.links[0].url}
                               class="hover:underline inline-flex items-center text-sm md:text-base font-semibold text-gray-900 dark:text-white"
                            >
-                              Open&nbsp;
+                              Open
                               <svg
                                  xmlns="http://www.w3.org/2000/svg"
-                                 class="h-5 w-5"
+                                 class="h-5 w-5 ml-1 hidden md:block"
                                  viewBox="0 0 20 20"
                                  fill="currentColor"
                               >
