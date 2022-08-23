@@ -1,0 +1,22 @@
+---
+layout: ../layouts/Post.astro
+title: Our friends
+---
+
+import LinkList from "../components/LinkList.astro";
+import friendlinks from "../data/friendlinks.json";
+import Credit from "../components/Credit.astro";
+
+<Credit>
+Thanks for the idea [@thelovebug](https://twitter.com/thelovebug)!
+</Credit>
+
+Here are some of the people we love.
+
+## Websites
+
+<LinkList list={friendlinks.people}></LinkList>
+
+## Podcasts
+
+<LinkList list={friendlinks.podcasts}></LinkList>

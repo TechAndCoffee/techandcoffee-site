@@ -1,0 +1,158 @@
+{
+   "people": [
+      {
+         "name": "George Doscher",
+         "icon": "/icons/george.webp",
+         "description": "Fearless leader of Tech and Coffee",
+         "links": [
+            {
+               "name": "Webiste",
+               "url": "https://sites.google.com/site/geospart/home"
+            }
+         ]
+      },
+      {
+         "name": "Chris Jenkins",
+         "icon": "/icons/empathyx.webp",
+         "description": "Critical thinking with Chris",
+         "links": [
+            {
+               "name": "Website",
+               "url": "https://empathyx.net"
+            },
+            {
+               "name": "Discord",
+               "url": "https://discord.gg/XJwngjym"
+            }
+         ]
+      },
+      {
+         "name": "Chris",
+         "icon": "/icons/chris.webp",
+         "description": "Twitch streamer and host of Insomnia Radio Canada",
+         "links": [
+            {
+               "name": "Twitch",
+               "url": "https://www.twitch.tv/chris_from_canada"
+            }
+         ]
+      },
+      {
+         "name": "Ciarán Ainsworth",
+         "icon": "/icons/sporiff.webp",
+         "description": "The original Tech and Coffee baby",
+         "links": [
+            {
+               "name": "Website",
+               "url": "https://sporiff.dev"
+            }
+         ]
+      }
+   ],
+   "podcasts": [
+      {
+         "name": "The Bugcast",
+         "icon": "/icons/bugcast.png",
+         "description": "Music & chat from South Yorkshire in the UK",
+         "links": [
+            {
+               "name": "Website",
+               "url": "https://thebugcast.org/"
+            },
+            {
+               "name": "Telegram",
+               "url": "https://t.me/joinchat/AAAAAAEjuukGMN_wFVSdfQ"
+            }
+         ]
+      },
+      {
+         "name": "Full Circle Magazine",
+         "icon": "/icons/fullcircle.svg",
+         "description": "The independent magazine for the Ubuntu Linux community",
+         "links": [
+            {
+               "name": "Website",
+               "url": "https://fullcirclemagazine.org/podcast/"
+            }
+         ]
+      },
+      {
+         "name": "Insomnia Radio Canada",
+         "icon": "/icons/insomnia_radio.jpeg",
+         "description": "Kill your FM",
+         "links": [
+            {
+               "name": "Website",
+               "url": "https://insomniaradio.net/category/ir-regional/ir-canada/"
+            },
+            {
+               "name": "Telegram",
+               "url": "https://t.me/joinchat/DME5VBWKR8mj0whoHriyLw"
+            }
+         ]
+      },
+      {
+         "name": "Linux Lads",
+         "icon": "/icons/linux_lads.png",
+         "description": "Four Linux users who like to talk about it. A lot.",
+         "links": [
+            {
+               "name": "Website",
+               "url": "https://linuxlads.com/"
+            },
+            {
+               "name": "Telegram",
+               "url": "https://t.me/linuxlads"
+            }
+         ]
+      },
+      {
+         "name": "mintCast",
+         "icon": "/icons/mintcast.png",
+         "description": "The podcast by the Linux Mint community for all users of Linux",
+         "links": [
+            {
+               "name": "Website",
+               "url": "https://mintcast.org/"
+            }
+         ]
+      },
+      {
+         "name": "Morning Mana",
+         "icon": "/icons/morning_mana.jpeg",
+         "description": "A Monday-Friday devotional podcast",
+         "links": [
+            {
+               "name": "Website",
+               "url": "https://www.spreaker.com/user/blueridgebruce"
+            }
+         ]
+      },
+      {
+         "name": "Tea, Earl Grey, Hot",
+         "icon": "/icons/tea_earl_grey_hot.webp",
+         "description": "An unofficial Star Trek podcast, from the Other Side Podcast Network",
+         "links": [
+            {
+               "name": "Website",
+               "url": "https://teaearlgreyhot.org/"
+            }
+         ]
+      },
+      {
+         "name": "Tuxjam",
+         "icon": "/icons/tuxjam.jpeg",
+         "description": "Mixing Open Source with Creative Commons goodness",
+         "links": [
+            {
+               "name": "Website",
+               "url": "https://tuxjam.otherside.network/"
+            },
+            {
+               "name": "Telegram",
+               "url": "https://t.me/podcrawl2021"
+            }
+         ]
+      }
+   ]
+}
