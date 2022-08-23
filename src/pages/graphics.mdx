@@ -3,7 +3,7 @@ layout: ../layouts/Post.astro
 title: Graphics
 ---
 
-import Photo from "../components/Photo.astro";
+import PhotoAlbum from "../components/PhotoAlbum.astro";
 import mediaPhotos from "../data/photos.json";
 import mediaLinks from "../data/links.json";
 import LinkList from "../components/LinkList.astro";
@@ -12,19 +12,7 @@ This page contains the official Tech and Coffee logos and graphics. Feel free to
 
 ## Graphics library
 
-<div class="columns-1 md:columns-2">
-   {
-      mediaPhotos.photos.map((photo) => (
-         <Photo
-            href={photo.url}
-            title={photo.title}
-            description={photo.description}
-            inverted={photo.inverted}
-            download_url={photo.download_url}
-         />
-      ))
-   }
-</div>
+<PhotoAlbum entries={mediaPhotos.photos} />
 
 ---
 
@@ -32,4 +20,4 @@ This page contains the official Tech and Coffee logos and graphics. Feel free to
 
 We have a lot more photos and videos backed up on Google Photos and YouTube. Check out the links in this list if you're interested!
 
-<LinkList list={mediaLinks.links}></LinkList>
+<LinkList list={mediaLinks.links} />
