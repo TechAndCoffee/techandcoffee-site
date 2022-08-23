@@ -1,64 +1,62 @@
-{
-   "links": [
-      {
-         "name": "Telegram",
-         "icon": "/icons/telegram.svg",
-         "description": "Our main voice and text chat platform",
-         "links": [
-            {
-               "name": "Main",
-               "url": "https://t.me/techandcoffee0"
-            },
-            {
-               "name": "Thunderdome (18+)",
-               "url": "https://t.me/+z41k69HVuBVhYzlh"
-            }
-         ]
-      },
-      {
-         "name": "Discord",
-         "description": "Conversations broken down by topic",
-         "icon": "/icons/discord.svg",
-         "links": [
-            {
-               "name": "T&C server",
-               "url": "https://discord.gg/Msy2RJ"
-            }
-         ]
-      },
-      {
-         "name": "Jitsi",
-         "description": "Video hangouts hosted on free software",
-         "icon": "/icons/jitsi.png",
-         "links": [
-            {
-               "name": "Main room",
-               "url": "https://meet.jit.si/techandcoffee"
-            },
-            {
-               "name": "Second room",
-               "url": "https://meet.jit.si/tech%20and%20coffee"
-            },
-            {
-               "name": "Third room",
-               "url": "https://meet.jit.si/tac"
-            }
-         ]
-      },
-      {
-         "name": "Google Chat",
-         "description": "Our Google Chat spaces",
-         "icon": "/icons/google_chat.svg",
-         "links": [
-            {
-               "name": "Main room",
-               "url": "https://chat.google.com/room/AAAAZBnYljo/kfCeSCdF5i8"
-            },
-            {
-               "name": "Side room",
-               "url": "https://chat.google.com/room/AAAAkzJdQfE/gaz337NvoZA"
-            }
-         ]
-      }
-   ]
-}
+[
+   {
+      "name": "Telegram",
+      "icon": "/icons/telegram.svg",
+      "description": "Our main voice and text chat platform",
+      "links": [
+         {
+            "name": "Main",
+            "url": "https://t.me/techandcoffee0"
+         },
+         {
+            "name": "Thunderdome (18+)",
+            "url": "https://t.me/+z41k69HVuBVhYzlh"
+         }
+      ]
+   },
+   {
+      "name": "Discord",
+      "description": "Conversations broken down by topic",
+      "icon": "/icons/discord.svg",
+      "links": [
+         {
+            "name": "T&C server",
+            "url": "https://discord.gg/Msy2RJ"
+         }
+      ]
+   },
+   {
+      "name": "Jitsi",
+      "description": "Video hangouts hosted on free software",
+      "icon": "/icons/jitsi.png",
+      "links": [
+         {
+            "name": "Main room",
+            "url": "https://meet.jit.si/techandcoffee"
+         },
+         {
+            "name": "Second room",
+            "url": "https://meet.jit.si/tech%20and%20coffee"
+         },
+         {
+            "name": "Third room",
+            "url": "https://meet.jit.si/tac"
+         }
+      ]
+   },
+   {
+      "name": "Google Chat",
+      "description": "Our Google Chat spaces",
+      "icon": "/icons/google_chat.svg",
+      "links": [
+         {
+            "name": "Main room",
+            "url": "https://chat.google.com/room/AAAAZBnYljo/kfCeSCdF5i8"
+         },
+         {
+            "name": "Side room",
+            "url": "https://chat.google.com/room/AAAAkzJdQfE/gaz337NvoZA"
+         }
+      ]
+   }
+]

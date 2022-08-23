@@ -1,10 +1,10 @@
 ---
 interface Photo {
    url: string;
-   title: string;
+   title?: string;
    description?: string;
-   inverted: boolean;
-   download_url: string;
+   inverted?: boolean;
+   download_url?: string;
 }
 export interface Props {
    entries: Array<Photo>;
@@ -18,7 +18,7 @@ const { entries } = Astro.props as Props;
       entries.map((entry) => (
          <a
             target="_blank"
-            href={entry.download_url}
+            href={entry.download_url ? entry.download_url : entry.url }
             class:list={[
                "w-full",
                "rounded",
@@ -28,21 +28,12 @@ const { entries } = Astro.props as Props;
                `${entry.inverted ? "bg-black" : "bg-white"}`,
             ]}
          >
-            {entry.description ? (
-               <img
-                  class="aspect-auto max-w-full max-h-full h-48"
-                  src={entry.url}
-                  alt={entry.description}
-                  title={entry.title}
-               />
-            ) : (
-               <img
-                  class="aspect-auto max-w-full max-h-full h-48"
-                  src={entry.url}
-                  alt=""
-                  title={entry.title}
-               />
-            )}
+            <img
+               class="aspect-auto max-w-full max-h-full h-48"
+               src={entry.url}
+               alt={entry.description ? entry.description : ""}
+               title={entry.title ? entry.title : ""}
+            />
          </a>
       ))
    }

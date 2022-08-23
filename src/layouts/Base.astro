@@ -1,8 +1,14 @@
 ---
+interface Link {
+	route: string;
+	name: string;
+}
+
 export interface Props {
 	title: string;
 }
 
+const links = (await Astro.glob("../data/navbar.json"))[0].default;
 const { title } = Astro.props as Props;
 ---
 
@@ -68,12 +74,9 @@ const { title } = Astro.props as Props;
 					class="flex flex-col items-center border-b border-blue-700 mb-5 pb-2.5 text-xs md:text-lg"
 				>
 					<ul class="flex gap-3 md:gap-5 flex-1 items-center">
-						<li><a class="hover:underline hover:text-blue-900 dark:hover:text-blue-500" href="/">Home</a></li>
-						<li><a class="hover:underline hover:text-blue-900 dark:hover:text-blue-500" href="/about">About</a></li>
-						<li><a class="hover:underline hover:text-blue-900 dark:hover:text-blue-500"href="/graphics">Graphics</a></li>
-						<li><a class="hover:underline hover:text-blue-900 dark:hover:text-blue-500" href="/hangouts">Hangouts</a></li>
-						<li><a class="hover:underline hover:text-blue-900 dark:hover:text-blue-500" href="/friends">Friends</a></li>
-						<li><a class="hover:underline hover:text-blue-900 dark:hover:text-blue-500" href="/rules">Rules</a></li>
+						{links.map((link: Link) =>
+						<li><a class="hover:underline hover:text-blue-900 dark:hover:text-blue-500" href={link.route}>{link.name}</a></li>
+						)}
 					</ul>
 				</nav>
 			</header>

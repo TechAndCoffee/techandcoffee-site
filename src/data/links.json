@@ -1,70 +1,68 @@
-{
-   "links": [
-      {
-         "name": "Tech and Coffee",
-         "links": [
-            {
-               "name": "Album",
-               "url": "https://photos.app.goo.gl/nL3woYk3qAeKLf7z9"
-            }
-         ]
-      },
-      {
-         "name": "Event photos",
-         "links": [
-            {
-               "name": "Album",
-               "url": "https://photos.app.goo.gl/j8dweDLcukVDwaxJ7"
-            }
-         ]
-      },
-      {
-         "name": "Hangout IRL Cabin Fever (2014)",
-         "links": [
-            {
-               "name": "Event",
-               "url": "https://photos.app.goo.gl/yRJiuF52PPzQcBG39"
-            },
-            {
-               "name": "Full event",
-               "url": "https://photos.app.goo.gl/oKgR7thbDQWFK3DN8"
-            },
-            {
-               "name": "Day 2",
-               "url": "https://photos.app.goo.gl/3DyAipt55WYTPqNK9"
-            },
-            {
-               "name": "Day 3",
-               "url": "https://photos.app.goo.gl/ncUGSLH4pHS99hon6"
-            }
-         ]
-      },
-      {
-         "name": "Hangout IRL",
-         "links": [
-            {
-               "name": "YouTube",
-               "url": "https://www.youtube.com/watch?time_continue=79&v=BAOSvpFXjFQ"
-            }
-         ]
-      },
-      {
-         "name": "Wallpaper submissions",
-         "links": [
-            {
-               "name": "Album",
-               "url": "https://photos.app.goo.gl/Gj8YuS3dzaBhGSR47"
-            }
-         ]
-      },
-      {
-         "name": "Tech and Coffee graphics",
-         "links": [
-            {
-               "name": "Album",
-               "url": "https://photos.app.goo.gl/faWXdfcrWXvyAVph9"
-            }
-         ]
-      }
-   ]
-}
+[
+   {
+      "name": "Tech and Coffee",
+      "links": [
+         {
+            "name": "Album",
+            "url": "https://photos.app.goo.gl/nL3woYk3qAeKLf7z9"
+         }
+      ]
+   },
+   {
+      "name": "Event photos",
+      "links": [
+         {
+            "name": "Album",
+            "url": "https://photos.app.goo.gl/j8dweDLcukVDwaxJ7"
+         }
+      ]
+   },
+   {
+      "name": "Hangout IRL Cabin Fever (2014)",
+      "links": [
+         {
+            "name": "Event",
+            "url": "https://photos.app.goo.gl/yRJiuF52PPzQcBG39"
+         },
+         {
+            "name": "Full event",
+            "url": "https://photos.app.goo.gl/oKgR7thbDQWFK3DN8"
+         },
+         {
+            "name": "Day 2",
+            "url": "https://photos.app.goo.gl/3DyAipt55WYTPqNK9"
+         },
+         {
+            "name": "Day 3",
+            "url": "https://photos.app.goo.gl/ncUGSLH4pHS99hon6"
+         }
+      ]
+   },
+   {
+      "name": "Hangout IRL",
+      "links": [
+         {
+            "name": "YouTube",
+            "url": "https://www.youtube.com/watch?time_continue=79&v=BAOSvpFXjFQ"
+         }
+      ]
+   },
+   {
+      "name": "Wallpaper submissions",
+      "links": [
+         {
+            "name": "Album",
+            "url": "https://photos.app.goo.gl/Gj8YuS3dzaBhGSR47"
+         }
+      ]
+   },
+   {
+      "name": "Tech and Coffee graphics",
+      "links": [
+         {
+            "name": "Album",
+            "url": "https://photos.app.goo.gl/faWXdfcrWXvyAVph9"
+         }
+      ]
+   }
+]
