@@ -11,6 +11,7 @@ export interface Props {
 
 const links = (await Astro.glob("../data/navbar.json"))[0].default;
 const { title, description } = Astro.props as Props;
+import { SEO } from "astro-seo";
 ---
 
 <!DOCTYPE html>
@@ -64,8 +65,42 @@ const { title, description } = Astro.props as Props;
 		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
 		<meta name="theme-color" content="#ffffff" />
 		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content={description} />
-		<title>{title}</title>
+		<SEO
+			title={title}
+			description={description}
+			openGraph={{
+				basic:{
+					title: "Tech & Coffee – the original \"and Coffee\" hangout",
+					type: "website",
+					image: "https://techandcoffee.info/images/tac_logo_hires.webp"
+				},
+				image:{
+					alt:"The Tech & Coffee logo",
+					type:"image/webp",
+					width:2000,
+					height:1700
+				}
+			}}
+			twitter={
+				{
+					card:"summary",
+					site:"@techandcoffee1",
+					creator:"@techandcoffee1"
+				}
+			}
+			extend={{
+				meta: [
+					{
+						name: "twitter:image",
+						content: "https://techandcoffee.info/images/tac_logo_hires.webp"
+					},
+					{
+						name: "twitter:image:alt",
+						content: "The Tech & Coffee logo"
+					}
+				]
+			}}
+		/>
 	</head>
 	<body class="dark:bg-neutral-800 dark:text-white">
 		<div

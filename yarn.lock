@@ -723,6 +723,11 @@ astring@^1.8.0:
   resolved "https://registry.npmjs.org/astring/-/astring-1.8.3.tgz"
   integrity sha512-sRpyiNrx2dEYIMmUXprS8nlpRg2Drs8m9ElX9vVEXaCB4XEAJhKfs7IcX0IwShjuOAjLR6wzIrgoptz1n19i1A==
 
+astro-seo@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/astro-seo/-/astro-seo-0.6.0.tgz#d46f98baa929f2111dd702662806fa741a9ac02a"
+  integrity sha512-nR+dJlAyQhX6s0oAmbBqPq3KCZax/zVAerFsclGiJQ2znOkS/7L+RGjziS4M9Q3OQxm3FMfqIKHp9Ns73Q81ww==
+
 astro@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/astro/-/astro-1.0.7.tgz#267abca8fc3b25074c7fe0e825eebc7a88155b0b"
