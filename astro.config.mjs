@@ -8,5 +8,5 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   integrations: [tailwind(), mdx(), sitemap()],
   output: 'static',
-  site: 'https://techandcoffee.netlify.app'
+  site: 'https://techandcoffee.info'
 });
