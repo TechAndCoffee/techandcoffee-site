@@ -1,21 +1,7 @@
 ---
-interface Links {
-   name: string;
-   url: string;
-}
+import type { LinkList } from "./types";
 
-interface File {
-   name: string;
-   icon?: string;
-   description?: string;
-   links: Array<Links>;
-}
-
-export interface Props {
-   list: Array<File>;
-}
-
-const { list } = Astro.props as Props;
+const { list } = Astro.props as LinkList;
 ---
 
 <div class="w-full not-prose">
