@@ -799,16 +799,16 @@ astring@^1.8.0:
   resolved "https://registry.npmjs.org/astring/-/astring-1.8.3.tgz"
   integrity sha512-sRpyiNrx2dEYIMmUXprS8nlpRg2Drs8m9ElX9vVEXaCB4XEAJhKfs7IcX0IwShjuOAjLR6wzIrgoptz1n19i1A==
 
-astro-compress@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/astro-compress/-/astro-compress-1.0.6.tgz#3e82849ed84a8142dfafdefbb117bef415b515cb"
-  integrity sha512-wJoGd6scxrtDPGI3mprBizLI4SIbrIWXswFMUCf5zxymF28d3u5B3op8Qk9NovD80zR7VwG0/DfmccHMXh1lrw==
+astro-compress@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/astro-compress/-/astro-compress-1.0.7.tgz#eebd8b7b17aacf273a5c7e6588e07db6140612a2"
+  integrity sha512-4G4SBW/8p4+Ah47+h7y3Ev16q7+4tjmg/tqixHD100D6ZsY5C0jTN+Mlue+SGs8T95GxUivhFRbrDcAFezPQ2w==
   dependencies:
     csso "5.0.5"
     deepmerge-ts "4.2.1"
     fast-glob "3.2.11"
     html-minifier-terser "7.0.0"
-    sharp "0.30.7"
+    sharp "0.31.0"
     svgo "2.8.0"
     terser "5.15.0"
 
@@ -3603,10 +3603,10 @@ semver@^7.3.5, semver@^7.3.7:
   dependencies:
     lru-cache "^6.0.0"
 
-sharp@0.30.7:
-  version "0.30.7"
-  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.30.7.tgz#7862bda98804fdd1f0d5659c85e3324b90d94c7c"
-  integrity sha512-G+MY2YW33jgflKPTXXptVO28HvNOo9G3j0MybYAHeEmby+QuD2U98dT6ueht9cv/XDqZspSpIhoSW+BAKJ7Hig==
+sharp@0.31.0:
+  version "0.31.0"
+  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.31.0.tgz#ce9b5202a5667486721cf07fd5b52360b1c2275a"
+  integrity sha512-ft96f8WzGxavg0rkLpMw90MTPMUZDyf0tHjPPh8Ob59xt6KzX8EqtotcqZGUm7kwqpX2pmYiyYX2LL0IZ/FDEw==
   dependencies:
     color "^4.2.3"
     detect-libc "^2.0.1"
@@ -3628,15 +3628,6 @@ shebang-regex@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
-
-shiki@^0.10.1:
-  version "0.10.1"
-  resolved "https://registry.npmjs.org/shiki/-/shiki-0.10.1.tgz"
-  integrity sha512-VsY7QJVzU51j5o1+DguUd+6vmCmZ5v/6gYu4vyYAhzjuNQU6P/vmSy4uQaOhvje031qQMiW0d2BwgMH52vqMng==
-  dependencies:
-    jsonc-parser "^3.0.0"
-    vscode-oniguruma "^1.6.1"
-    vscode-textmate "5.2.0"
 
 shiki@^0.11.1:
   version "0.11.1"
@@ -4238,11 +4229,6 @@ vscode-oniguruma@^1.6.1:
   version "1.6.2"
   resolved "https://registry.npmjs.org/vscode-oniguruma/-/vscode-oniguruma-1.6.2.tgz"
   integrity sha512-KH8+KKov5eS/9WhofZR8M8dMHWN2gTxjMsG4jd04YhpbPR91fUj7rYQ2/XjeHCJWbg7X++ApRIU9NUwM2vTvLA==
-
-vscode-textmate@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.npmjs.org/vscode-textmate/-/vscode-textmate-5.2.0.tgz"
-  integrity sha512-Uw5ooOQxRASHgu6C7GVvUxisKXfSgW4oFlO+aa+PAkgmH89O3CXxEEzNRNtHSqtXFTl0nAC1uYj0GMSH27uwtQ==
 
 vscode-textmate@^6.0.0:
   version "6.0.0"
