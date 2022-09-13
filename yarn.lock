@@ -65,10 +65,10 @@
     unist-util-visit "^4.1.0"
     vfile "^5.3.2"
 
-"@astrojs/mdx@^0.10.2":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@astrojs/mdx/-/mdx-0.10.2.tgz#6480695b40003ef246c781546fbf2bc2fb69940e"
-  integrity sha512-wayFVQx22DSfDD2JnVvPHqJDZNDdbfUu2kfTc3ecf8v6QGa0DqNI97zvfJwtHWJkpJxpbjI7Yw5IF6vdNXvJNg==
+"@astrojs/mdx@^0.11.1":
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/mdx/-/mdx-0.11.1.tgz#17ddb5320f6d034160756d3f0bae22599d1aad3a"
+  integrity sha512-L0uUBRlfRZvXhS5rc/VIrQlHldgj7cwrSb81K3cAB2LrzqZ3QgU+GRx/mdMN95Brqkv+8x77cNmsbAwXxijeNA==
   dependencies:
     "@astrojs/prism" "^1.0.1"
     "@mdx-js/mdx" "^2.1.2"
@@ -77,11 +77,12 @@
     es-module-lexer "^0.10.5"
     github-slugger "^1.4.0"
     gray-matter "^4.0.3"
+    kleur "^4.1.4"
     rehype-raw "^6.1.1"
     remark-frontmatter "^4.0.1"
     remark-gfm "^3.0.1"
     remark-smartypants "^2.0.0"
-    shiki "^0.10.1"
+    shiki "^0.11.1"
     unist-util-visit "^4.1.0"
     vfile "^5.3.2"
 
