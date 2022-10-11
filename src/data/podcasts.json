@@ -15,6 +15,17 @@
       ]
    },
    {
+      "name": "Distrohoppers' Digest",
+      "icon": "/icons/distrohopper.webp",
+      "description": "Three blokes who love Linux and trying out new stuff",
+      "links": [
+         {
+         "name": "Website",
+         "url": "https://distrohoppersdigest.blogspot.com"
+         }
+      ]
+   },
+   {
       "name": "Full Circle Magazine",
       "icon": "/icons/fullcircle.svg",
       "description": "The independent magazine for the Ubuntu Linux community",
@@ -22,6 +33,17 @@
          {
             "name": "Website",
             "url": "https://fullcirclemagazine.org/podcast/"
+         }
+      ]
+   },
+   {
+      "name": "Grow and Graze",
+      "icon": "/icons/growandgraze.webp",
+      "description": "Learn about farming, gardening, horticulture, and more.",
+      "links": [
+         {
+            "name": "Website",
+            "url": "https://go.ncsu.edu/growandgraze"
          }
       ]
    },
@@ -100,17 +122,6 @@
          {
             "name": "Telegram",
             "url": "https://t.me/podcrawl2021"
-         }
-      ]
-   },
-   {
-      "name": "Grow and Graze",
-      "icon": "/icons/growandgraze.webp",
-      "description": "Learn about farming, gardening, horticulture, and more.",
-      "links": [
-         {
-            "name": "Website",
-            "url": "https://go.ncsu.edu/growandgraze"
          }
       ]
    }
