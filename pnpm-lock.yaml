@@ -5,7 +5,7 @@ specifiers:
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.1.0
   '@tailwindcss/typography': 0.5.7
-  astro: 1.5.0
+  astro: 1.5.1
   astro-compress: 1.0.12
   astro-seo: 0.6.0
   tailwindcss: 3.1.8
@@ -18,7 +18,7 @@ devDependencies:
   '@astrojs/mdx': 0.11.4
   '@astrojs/sitemap': 1.0.0
   '@tailwindcss/typography': 0.5.7_tailwindcss@3.1.8
-  astro: 1.5.0
+  astro: 1.5.1
   astro-compress: 1.0.12
   astro-seo: 0.6.0
 
@@ -855,8 +855,8 @@ packages:
     resolution: {integrity: sha512-nR+dJlAyQhX6s0oAmbBqPq3KCZax/zVAerFsclGiJQ2znOkS/7L+RGjziS4M9Q3OQxm3FMfqIKHp9Ns73Q81ww==}
     dev: true
 
-  /astro/1.5.0:
-    resolution: {integrity: sha512-xwneXjRT4FChouSe/cj6oJVU6Ux7Fd/7rfnh3mPlB9PTbN5UwnfCI5MjR7rTc93i169Jjh93FndrxmGX45sQBw==}
+  /astro/1.5.1:
+    resolution: {integrity: sha512-jHJ0NeaGEhGkp+z7wBlNtb8s7HVFkudNJaCJO1AXk7e2AhhcPrtiueRpjDK1QWkixWHF1EYNhav7TNqJscodMw==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
