@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/mdx': 0.11.4
   '@astrojs/sitemap': 1.0.0
-  '@astrojs/tailwind': 2.1.0
+  '@astrojs/tailwind': 2.1.1
   '@tailwindcss/typography': 0.5.7
   astro: 1.5.0
   astro-compress: 1.0.12
@@ -11,7 +11,7 @@ specifiers:
   tailwindcss: 3.1.8
 
 dependencies:
-  '@astrojs/tailwind': 2.1.0_tailwindcss@3.1.8
+  '@astrojs/tailwind': 2.1.1_tailwindcss@3.1.8
   tailwindcss: 3.1.8
 
 devDependencies:
@@ -142,8 +142,8 @@ packages:
       zod: 3.18.0
     dev: true
 
-  /@astrojs/tailwind/2.1.0_tailwindcss@3.1.8:
-    resolution: {integrity: sha512-zfdprApzUJbqCNSJNEYeV7dh0ZGMdPDnROXb11ZBusu3/oVrahfP7nlmJTr05bpUdFURNIn2Z7Jkhn0nsAl8dQ==}
+  /@astrojs/tailwind/2.1.1_tailwindcss@3.1.8:
+    resolution: {integrity: sha512-Il6FODtu4AlwadleJS3VWmAOOmeCDKvAo3iof46p4iHtdeWLClyuH9kJXWrlzCS+QOfBSIfXxvwPJ3cbK5COlA==}
     peerDependencies:
       tailwindcss: ^3.0.24
     dependencies:
