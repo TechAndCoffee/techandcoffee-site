@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': 0.11.4
+  '@astrojs/mdx': 0.11.5
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.1.1
   '@tailwindcss/typography': 0.5.7
@@ -15,7 +15,7 @@ dependencies:
   tailwindcss: 3.2.1
 
 devDependencies:
-  '@astrojs/mdx': 0.11.4
+  '@astrojs/mdx': 0.11.5
   '@astrojs/sitemap': 1.0.0
   '@tailwindcss/typography': 0.5.7_tailwindcss@3.2.1
   astro: 1.5.2
@@ -89,8 +89,8 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx/0.11.4:
-    resolution: {integrity: sha512-b86Fzd87OCuYUGk7O59mwq0URqLdH40wUJC5UCkFmSquIrk8QNrZ7tdjriBfF+Wq3+2UT5JO4ahxIuP6N3cczQ==}
+  /@astrojs/mdx/0.11.5:
+    resolution: {integrity: sha512-zSlMX5unK4aIfg6NeYzlw0erLtvKpk71FWo11jYsMmmajYSU2JUk6maKWewERXGuVoY2YpC4W4Fl5dPn6jYGdQ==}
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
       '@astrojs/prism': 1.0.1
