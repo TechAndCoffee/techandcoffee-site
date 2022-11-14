@@ -6,7 +6,7 @@ specifiers:
   '@astrojs/tailwind': 2.1.2
   '@tailwindcss/typography': 0.5.8
   astro: 1.6.7
-  astro-compress: 1.1.5
+  astro-compress: 1.1.6
   astro-seo: 0.6.0
   tailwindcss: 3.2.4
 
@@ -19,7 +19,7 @@ devDependencies:
   '@astrojs/sitemap': 1.0.0
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
   astro: 1.6.7
-  astro-compress: 1.1.5
+  astro-compress: 1.1.6
   astro-seo: 0.6.0
 
 packages:
@@ -829,8 +829,8 @@ packages:
     hasBin: true
     dev: true
 
-  /astro-compress/1.1.5:
-    resolution: {integrity: sha512-Lp1BvKivu2MsAk3dbnNOnrpTcsM0Pn0aNt9aWSLAxuFqsXT3bj2L0lCWaCNBgDQ2j7FJtM8CrN2wITBRmspFHQ==}
+  /astro-compress/1.1.6:
+    resolution: {integrity: sha512-XFDkepT28LftKLsnH8F++esMerNOEx2D/B00VVEiCo2gNI7KpXXzrgE+PBN3mJbXxuwgJNhhHd810g9+BVe53g==}
     dependencies:
       csso: 5.0.5
       deepmerge-ts: 4.2.2
