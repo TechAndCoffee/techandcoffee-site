@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/mdx': 0.11.5
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.1.2
-  '@tailwindcss/typography': 0.5.7
+  '@tailwindcss/typography': 0.5.8
   astro: 1.6.7
   astro-compress: 1.1.5
   astro-seo: 0.6.0
@@ -17,7 +17,7 @@ dependencies:
 devDependencies:
   '@astrojs/mdx': 0.11.5
   '@astrojs/sitemap': 1.0.0
-  '@tailwindcss/typography': 0.5.7_tailwindcss@3.2.4
+  '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
   astro: 1.6.7
   astro-compress: 1.1.5
   astro-seo: 0.6.0
@@ -587,8 +587,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@tailwindcss/typography/0.5.7_tailwindcss@3.2.4:
-    resolution: {integrity: sha512-JTTSTrgZfp6Ki4svhPA4mkd9nmQ/j9EfE7SbHJ1cLtthKkpW2OxsFXzSmxbhYbEkfNIyAyhle5p4SYyKRbz/jg==}
+  /@tailwindcss/typography/0.5.8_tailwindcss@3.2.4:
+    resolution: {integrity: sha512-xGQEp8KXN8Sd8m6R4xYmwxghmswrd0cPnNI2Lc6fmrC3OojysTBJJGSIVwPV56q4t6THFUK3HJ0EaWwpglSxWw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
