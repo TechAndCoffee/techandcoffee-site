@@ -6,7 +6,7 @@ specifiers:
   '@astrojs/tailwind': 2.1.2
   '@tailwindcss/typography': 0.5.8
   astro: 1.6.10
-  astro-compress: 1.1.8
+  astro-compress: 1.1.9
   astro-seo: 0.6.0
   tailwindcss: 3.2.4
 
@@ -19,7 +19,7 @@ devDependencies:
   '@astrojs/sitemap': 1.0.0
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
   astro: 1.6.10
-  astro-compress: 1.1.8
+  astro-compress: 1.1.9
   astro-seo: 0.6.0
 
 packages:
@@ -530,14 +530,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nikolarhristov/pipeline/0.0.1:
-    resolution: {integrity: sha512-QL4425IwkJqV4jIbv2lIK5raMAWz6fS1CKpI3QdVR3O2J+tIc6iZIbv7J1GS/CYX1lxrqX5U+Wgehva9/gxLYQ==}
+  /@nikolarhristov/pipeline/0.0.2:
+    resolution: {integrity: sha512-E4CxzjaKT1bd3aclF1ieR4QW0wyl1n6ZXSZ5TYx7JEtAJehj8ygThluXPnYcBAXMThZmKK535yB8f59YszoSzQ==}
     dependencies:
       critters: 0.0.16
       csso: 5.0.5
       deepmerge-ts: 4.2.2
       fast-glob: 3.2.12
-      html-minifier-terser: 7.0.0
+      html-minifier-terser: 7.1.0
       sharp: 0.31.2
       svgo: 3.0.2
       terser: 5.15.1
@@ -842,10 +842,10 @@ packages:
     hasBin: true
     dev: true
 
-  /astro-compress/1.1.8:
-    resolution: {integrity: sha512-kiswbxJ9m3a0qabOUY8V4Kqj7ODrYel0isJq+hf+sAw0Bwc5No0wE0PaCurkqQMbZAEHD2AmNwQMlyyg1oc6TQ==}
+  /astro-compress/1.1.9:
+    resolution: {integrity: sha512-3cdyd98Mksd55t5DQBTEd+qfx+ErV82yn9TEx/NMaaJf8GYcaqsRx0jLvQeTG+rI3BdfR13f/VEmiACul9bSUg==}
     dependencies:
-      '@nikolarhristov/pipeline': 0.0.1
+      '@nikolarhristov/pipeline': 0.0.2
     dev: true
 
   /astro-seo/0.6.0:
@@ -2330,8 +2330,8 @@ packages:
     resolution: {integrity: sha512-RuMffC89BOWQoY0WKGpIhn5gX3iI54O6nRA0yC124NYVtzjmFWBIiFd8M0x+ZdX0P9R4lADg1mgP8C7PxGOWuQ==}
     dev: true
 
-  /html-minifier-terser/7.0.0:
-    resolution: {integrity: sha512-Adqk0b/pWKIQiGvEAuzPKpBKNHiwblr3QSGS7TTr6v+xXKV9AI2k4vWW+6Oytt6Z5SeBnfvYypKOnz8r75pz3Q==}
+  /html-minifier-terser/7.1.0:
+    resolution: {integrity: sha512-BvPO2S7Ip0Q5qt+Y8j/27Vclj6uHC6av0TMoDn7/bJPhMWHI2UtR2e/zEgJn3/qYAmxumrGp9q4UHurL6mtW9Q==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
