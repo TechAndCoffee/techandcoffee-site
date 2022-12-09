@@ -6,7 +6,7 @@ specifiers:
   '@astrojs/tailwind': 2.1.3
   '@tailwindcss/typography': 0.5.8
   astro: 1.6.14
-  astro-compress: 1.1.18
+  astro-compress: 1.1.19
   astro-seo: 0.6.0
   tailwindcss: 3.2.4
 
@@ -19,7 +19,7 @@ devDependencies:
   '@astrojs/sitemap': 1.0.0
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
   astro: 1.6.14
-  astro-compress: 1.1.18
+  astro-compress: 1.1.19
   astro-seo: 0.6.0
 
 packages:
@@ -525,8 +525,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nikolarhristov/pipeline/0.1.0:
-    resolution: {integrity: sha512-kxrVA9uXidzQIC1AUSWhnG8JskTiAXpRqBbovCR7zlSdexFm6qb5TtP1dXj+nW3zHwMKTHTt7b+G1MjLnHFniA==}
+  /@nikolarhristov/pipeline/0.1.1:
+    resolution: {integrity: sha512-GRkKEmxwkExYnVbNlL63bADFOmzotdWqyiAktYB/GpIPNarP4evWe8BOaOjLJzeeUtZOA4rgv7vQrjG/oLosZw==}
     dependencies:
       '@types/csso': 5.0.0
       '@types/html-minifier-terser': 7.0.0
@@ -868,10 +868,10 @@ packages:
     hasBin: true
     dev: true
 
-  /astro-compress/1.1.18:
-    resolution: {integrity: sha512-/691T3/hxPbaxoatsNG3JUuUA7jj6+qQqWyqU4kAaFBNEV6lms6pmv1DECM8qaOx47pLZe7VeuXGkb8tOS2x9g==}
+  /astro-compress/1.1.19:
+    resolution: {integrity: sha512-omU2Y6YeB2XvRtjFFQMuXpRwrRWp+SJ1+PES9DqSjE/AK+5Ae3IeDOWRdSg+Uji1RoSrpjZmwh87a16f8ADI0g==}
     dependencies:
-      '@nikolarhristov/pipeline': 0.1.0
+      '@nikolarhristov/pipeline': 0.1.1
     dev: true
 
   /astro-seo/0.6.0:
