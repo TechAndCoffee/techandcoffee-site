@@ -6,7 +6,7 @@ specifiers:
   '@astrojs/tailwind': 2.1.3
   '@tailwindcss/typography': 0.5.8
   astro: 1.7.1
-  astro-compress: 1.1.22
+  astro-compress: 1.1.23
   astro-seo: 0.6.0
   tailwindcss: 3.2.4
 
@@ -19,7 +19,7 @@ devDependencies:
   '@astrojs/sitemap': 1.0.0
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
   astro: 1.7.1
-  astro-compress: 1.1.22
+  astro-compress: 1.1.23
   astro-seo: 0.6.0
 
 packages:
@@ -525,22 +525,6 @@ packages:
       - supports-color
     dev: true
 
-  /@nikolarhristov/pipeline/0.1.7:
-    resolution: {integrity: sha512-ImQX3HW9VqL6koGyR8zkTUWFGcASiAooULyfN+9IdKyPo1eje0uTe3eogNErzvd2okKYXsrONNwIvpccaywuiA==}
-    dependencies:
-      '@types/csso': 5.0.0
-      '@types/html-minifier-terser': 7.0.0
-      '@types/sharp': 0.31.0
-      critters: 0.0.16
-      csso: 5.0.5
-      deepmerge-ts: 4.2.2
-      fast-glob: 3.2.12
-      html-minifier-terser: 7.1.0
-      sharp: 0.31.2
-      svgo: 3.0.2
-      terser: 5.16.1
-    dev: true
-
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -868,10 +852,10 @@ packages:
     hasBin: true
     dev: true
 
-  /astro-compress/1.1.22:
-    resolution: {integrity: sha512-8gcYqN8nOC/JwH6dxcoLHTQQaAQNe7tS/yd4uc3dmO93n684ZdMXuPfr6KvjkQEOTEuYYS/lqkC8gjObVtFN1g==}
+  /astro-compress/1.1.23:
+    resolution: {integrity: sha512-F2oAtIhwEzqZwq168vpI3D3sxFXAIRhh4Do0Sgd55A2ElAhDjPszzw7ZQ7u69D6jrGZjTI3MugZcOC09z707fA==}
     dependencies:
-      '@nikolarhristov/pipeline': 0.1.7
+      files-pipeline: 0.0.1
     dev: true
 
   /astro-seo/0.6.0:
@@ -1861,6 +1845,22 @@ packages:
     dependencies:
       node-domexception: 1.0.0
       web-streams-polyfill: 3.2.1
+    dev: true
+
+  /files-pipeline/0.0.1:
+    resolution: {integrity: sha512-QmIYklS5CsQfjOuO2aQYtwD5zvuQlMo7bx6oC9mxQZg7pDKkkKTNfMkRMOsBTSc3xeL1DzyuGVrMQZRAyrqHGA==}
+    dependencies:
+      '@types/csso': 5.0.0
+      '@types/html-minifier-terser': 7.0.0
+      '@types/sharp': 0.31.0
+      critters: 0.0.16
+      csso: 5.0.5
+      deepmerge-ts: 4.2.2
+      fast-glob: 3.2.12
+      html-minifier-terser: 7.1.0
+      sharp: 0.31.2
+      svgo: 3.0.2
+      terser: 5.16.1
     dev: true
 
   /fill-range/7.0.1:
