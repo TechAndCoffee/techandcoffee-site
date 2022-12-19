@@ -7,7 +7,7 @@ specifiers:
   '@tailwindcss/typography': 0.5.8
   astro: 1.7.2
   astro-compress: 1.1.24
-  astro-seo: 0.6.0
+  astro-seo: 0.6.1
   tailwindcss: 3.2.4
 
 dependencies:
@@ -20,7 +20,7 @@ devDependencies:
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
   astro: 1.7.2
   astro-compress: 1.1.24
-  astro-seo: 0.6.0
+  astro-seo: 0.6.1
 
 packages:
 
@@ -872,8 +872,8 @@ packages:
       terser: 5.16.1
     dev: true
 
-  /astro-seo/0.6.0:
-    resolution: {integrity: sha512-nR+dJlAyQhX6s0oAmbBqPq3KCZax/zVAerFsclGiJQ2znOkS/7L+RGjziS4M9Q3OQxm3FMfqIKHp9Ns73Q81ww==}
+  /astro-seo/0.6.1:
+    resolution: {integrity: sha512-eszmxiycjfLcmoRyB8x5lCrWAwcSHs1i5riR1a5JbyJI8OQAl9tn1JvWFRuZvNH483CFdfNCczirnc805t/soA==}
     dev: true
 
   /astro/1.7.2:
