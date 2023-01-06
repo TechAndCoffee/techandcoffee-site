@@ -46,5 +46,20 @@
             "url": "https://sporiff.dev"
          }
       ]
+   },
+   {
+      "name": "Moss Bliss",
+      "icon": "/icons/moss.png",
+      "description": "Host of the mintCast",
+      "links": [
+         {
+            "name": "Website",
+            "url": "https://peacefulhippo.info/"
+         },
+         {
+            "name": "Linux and hardware site",
+            "url": "https://itsmoss.com"
+         }
+      ]
    }
 ]

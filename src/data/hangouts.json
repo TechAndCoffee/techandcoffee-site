@@ -16,12 +16,49 @@
    },
    {
       "name": "Discord",
-      "description": "Conversations broken down by topic",
+      "description": "Chat with us, gamers",
       "icon": "/icons/discord.svg",
       "links": [
          {
             "name": "T&C server",
             "url": "https://discord.gg/Msy2RJ"
+         }
+      ]
+   },
+   {
+      "name": "Matrix",
+      "description": "Distributed chat for cool people",
+      "icon": "/icons/matrix.png",
+      "links": [
+         {
+            "name": "Main",
+            "url": "https://matrix.to/#/#TaC:matrix.org"
+         },
+         {
+            "name": "Thunderdome (18+)",
+            "url": "https://matrix.to/#/#TaC-thunderdome:matrix.org"
+         }
+      ]
+   },
+   {
+      "name": "IRC",
+      "description": "Chat with the future from the past",
+      "icon": "/icons/irc.png",
+      "links": [
+         {
+            "name": "Main",
+            "url": "https://web.libera.chat/#techandcoffee"
+         }
+      ]
+   },
+   {
+      "name": "Slack",
+      "description": "IRC for business nerds",
+      "icon": "/icons/slack.png",
+      "links": [
+         {
+            "name": "Main",
+            "url": "https://techandcoffee.slack.com"
          }
       ]
    },
@@ -41,21 +78,6 @@
          {
             "name": "Third room",
             "url": "https://meet.jit.si/tac"
-         }
-      ]
-   },
-   {
-      "name": "Google Chat",
-      "description": "Our Google Chat spaces",
-      "icon": "/icons/google_chat.svg",
-      "links": [
-         {
-            "name": "Main room",
-            "url": "https://chat.google.com/room/AAAAf0kGg2A/V8fHzeHrDug"
-         },
-         {
-            "name": "Side room",
-            "url": "https://chat.google.com/room/AAAAkzJdQfE/gaz337NvoZA"
          }
       ]
    }
