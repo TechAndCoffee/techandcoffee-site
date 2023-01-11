@@ -14,7 +14,7 @@
     "@astrojs/mdx": "0.14.0",
     "@astrojs/sitemap": "1.0.0",
     "@tailwindcss/typography": "0.5.8",
-    "astro": "1.9.1",
+    "astro": "1.9.2",
     "astro-compress": "1.1.25",
     "astro-seo": "0.6.1"
   },
