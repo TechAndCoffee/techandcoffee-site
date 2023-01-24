@@ -52,17 +52,6 @@
       ]
    },
    {
-      "name": "Slack",
-      "description": "IRC for business nerds",
-      "icon": "/icons/slack.png",
-      "links": [
-         {
-            "name": "Main",
-            "url": "https://techandcoffee.slack.com"
-         }
-      ]
-   },
-   {
       "name": "Jitsi",
       "description": "Video hangouts hosted on free software",
       "icon": "/icons/jitsi.png",
