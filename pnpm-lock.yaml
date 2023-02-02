@@ -6,7 +6,7 @@ specifiers:
   '@astrojs/tailwind': 3.0.1
   '@tailwindcss/typography': 0.5.9
   astro: 2.0.5
-  astro-compress: 1.1.28
+  astro-compress: 1.1.29
   astro-seo: 0.7.0
   tailwindcss: 3.2.4
 
@@ -19,7 +19,7 @@ devDependencies:
   '@astrojs/sitemap': 1.0.1
   '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.4
   astro: 2.0.5
-  astro-compress: 1.1.28
+  astro-compress: 1.1.29
   astro-seo: 0.7.0
 
 packages:
@@ -901,18 +901,18 @@ packages:
     hasBin: true
     dev: true
 
-  /astro-compress/1.1.28:
-    resolution: {integrity: sha512-uk4lZHug/A276T/jdtEscCFbWVI78UqlvDg4ujRL5UUcIs+nd8gJOipSagkzdGswjNkd482zFysQ9YS5/u7xVw==}
+  /astro-compress/1.1.29:
+    resolution: {integrity: sha512-iR6zLxsh37H4RshK63mcSERwGDk7oE43fCSezK3LDIf6Lgagkau0eOpBikpBO6HtcQi+mgGrfSfGaV5EJYQTNQ==}
     dependencies:
       '@types/csso': 5.0.0
       '@types/html-minifier-terser': 7.0.0
       '@types/sharp': 0.31.1
       csso: 5.0.5
-      files-pipeline: 0.0.2
+      files-pipeline: 0.0.3
       html-minifier-terser: 7.1.0
       sharp: 0.31.3
       svgo: 3.0.2
-      terser: 5.16.1
+      terser: 5.16.2
     dev: true
 
   /astro-seo/0.7.0:
@@ -1587,8 +1587,8 @@ packages:
       format: 0.2.2
     dev: true
 
-  /files-pipeline/0.0.2:
-    resolution: {integrity: sha512-e5BHeSXczwD+6PEy+CLhoYd9NSZkn6gK+QyGwgzdufO4qq0KWKMbVE53lwyw/gKYSbKMe2AgUvVp5N4VrA3OTw==}
+  /files-pipeline/0.0.3:
+    resolution: {integrity: sha512-dtHt96Rs0qsNBnIlPuHUP8vd5xPRGbMYgywMfA2Qy83QPz8feoWsoXSuxxLsWYv4vag+vAhNZ4YOHL0pdyGKFA==}
     dependencies:
       deepmerge-ts: 4.2.2
       fast-glob: 3.2.12
@@ -1818,7 +1818,7 @@ packages:
       entities: 4.4.0
       param-case: 3.0.4
       relateurl: 0.2.7
-      terser: 5.16.1
+      terser: 5.16.2
     dev: true
 
   /html-void-elements/2.0.1:
@@ -3459,8 +3459,8 @@ packages:
       readable-stream: 3.6.0
     dev: true
 
-  /terser/5.16.1:
-    resolution: {integrity: sha512-xvQfyfA1ayT0qdK47zskQgRZeWLoOQ8JQ6mIgRGVNwZKdQMU+5FkCBjmv4QjcrTzyZquRw2FVtlJSRUmMKQslw==}
+  /terser/5.16.2:
+    resolution: {integrity: sha512-JKuM+KvvWVqT7muHVyrwv7FVRPnmHDwF6XwoIxdbF5Witi0vu99RYpxDexpJndXt3jbZZmmWr2/mQa6HvSNdSg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
