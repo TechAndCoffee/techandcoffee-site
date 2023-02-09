@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "@astrojs/tailwind": "3.0.1",
-    "tailwindcss": "3.2.4"
+    "tailwindcss": "3.2.6"
   }
 }
