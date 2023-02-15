@@ -15,7 +15,7 @@
     "@astrojs/sitemap": "1.0.1",
     "@tailwindcss/typography": "0.5.9",
     "astro": "2.0.11",
-    "astro-compress": "1.1.32",
+    "astro-compress": "1.1.33",
     "astro-seo": "0.7.0"
   },
   "dependencies": {
