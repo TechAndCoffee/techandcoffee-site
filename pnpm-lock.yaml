@@ -8,16 +8,16 @@ specifiers:
   astro: 2.0.13
   astro-compress: 1.1.33
   astro-seo: 0.7.0
-  tailwindcss: 3.2.6
+  tailwindcss: 3.2.7
 
 dependencies:
-  '@astrojs/tailwind': 3.0.1_27kdapwfxa25fv46mfsbutv2e4
-  tailwindcss: 3.2.6
+  '@astrojs/tailwind': 3.0.1_j4ssor7rhzx4qpfmpg2bxdkwtm
+  tailwindcss: 3.2.7
 
 devDependencies:
   '@astrojs/mdx': 0.16.0_astro@2.0.13
   '@astrojs/sitemap': 1.0.1
-  '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.6
+  '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.7
   astro: 2.0.13
   astro-compress: 1.1.33
   astro-seo: 0.7.0
@@ -116,7 +116,7 @@ packages:
       zod: 3.20.2
     dev: true
 
-  /@astrojs/tailwind/3.0.1_27kdapwfxa25fv46mfsbutv2e4:
+  /@astrojs/tailwind/3.0.1_j4ssor7rhzx4qpfmpg2bxdkwtm:
     resolution: {integrity: sha512-QSYh/xmz454j1yZU9rjw2J24PpH7j3h2ClesqMaAniOtcuL8RfP7KYCnCrk01xvjwqqO+QBpZNDD/SUhHNtFFg==}
     peerDependencies:
       astro: ^2.0.4
@@ -127,7 +127,7 @@ packages:
       autoprefixer: 10.4.13_postcss@8.4.21
       postcss: 8.4.21
       postcss-load-config: 4.0.1_postcss@8.4.21
-      tailwindcss: 3.2.6
+      tailwindcss: 3.2.7
     transitivePeerDependencies:
       - ts-node
     dev: false
@@ -675,7 +675,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@tailwindcss/typography/0.5.9_tailwindcss@3.2.6:
+  /@tailwindcss/typography/0.5.9_tailwindcss@3.2.7:
     resolution: {integrity: sha512-t8Sg3DyynFysV9f4JDOVISGsjazNb48AeIYQwcL+Bsq5uf4RYL75C1giZ43KISjeDGBaTN3Kxh7Xj/vRSMJUUg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -684,7 +684,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.2.6
+      tailwindcss: 3.2.7
     dev: true
 
   /@trysound/sax/0.2.0:
@@ -3417,8 +3417,8 @@ packages:
       '@pkgr/utils': 2.3.1
       tslib: 2.5.0
 
-  /tailwindcss/3.2.6:
-    resolution: {integrity: sha512-BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO+1ov/MJ93ODJ9yluRituIw==}
+  /tailwindcss/3.2.7:
+    resolution: {integrity: sha512-B6DLqJzc21x7wntlH/GsZwEXTBttVSl1FtCzC8WP4oBc/NKef7kaax5jeihkkCEWc831/5NDJ9gRNDK6NEioQQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
