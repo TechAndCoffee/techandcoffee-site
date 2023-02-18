@@ -16,7 +16,7 @@
     "@tailwindcss/typography": "0.5.9",
     "astro": "2.0.14",
     "astro-compress": "1.1.33",
-    "astro-seo": "0.7.0"
+    "astro-seo": "0.7.1"
   },
   "dependencies": {
     "@astrojs/tailwind": "3.0.1",
