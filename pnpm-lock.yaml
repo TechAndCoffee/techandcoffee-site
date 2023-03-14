@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': 0.18.0
+  '@astrojs/mdx': 0.18.1
   '@astrojs/sitemap': 1.2.1
   '@astrojs/tailwind': 3.1.1
   '@tailwindcss/typography': 0.5.9
@@ -15,7 +15,7 @@ dependencies:
   tailwindcss: 3.2.7
 
 devDependencies:
-  '@astrojs/mdx': 0.18.0_astro@2.1.3
+  '@astrojs/mdx': 0.18.1_astro@2.1.3
   '@astrojs/sitemap': 1.2.1
   '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.7
   astro: 2.1.3
@@ -59,7 +59,7 @@ packages:
     peerDependencies:
       astro: ^2.1.0
     dependencies:
-      '@astrojs/prism': 2.1.0
+      '@astrojs/prism': 2.1.1
       astro: 2.1.3
       github-slugger: 1.5.0
       image-size: 1.0.2
@@ -77,12 +77,12 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/mdx/0.18.0_astro@2.1.3:
-    resolution: {integrity: sha512-mgICosefMpl67O7ER6Yi6ylT9Hk8ZAO6GhTlx4pYXIMOWFMQlP0NXQ9teZwPhOWzBcHWnsHEF+AzVZWbiC2EBg==}
+  /@astrojs/mdx/0.18.1_astro@2.1.3:
+    resolution: {integrity: sha512-C5pdzAMyigZxbOOtbsmC4RsDOTTTtIbSJkk4FLD5aTfQ9//d/rEep5S9cFFeIARrHkjPiDP374WYm0RZqtN9ig==}
     engines: {node: '>=16.12.0'}
     dependencies:
       '@astrojs/markdown-remark': 2.1.0_astro@2.1.3
-      '@astrojs/prism': 2.1.0
+      '@astrojs/prism': 2.1.1
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/rollup': 2.3.0
       acorn: 8.8.2
@@ -104,8 +104,8 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/prism/2.1.0:
-    resolution: {integrity: sha512-+II6nfIFGZ7iH0FunhRGcj/J1mCxjcHl85cZRuFePKLoIhFHJT3nC3myQnUw386hUaIn2W20McxxtAVf4leeRQ==}
+  /@astrojs/prism/2.1.1:
+    resolution: {integrity: sha512-Gnwnlb1lGJzCQEg89r4/WqgfCGPNFC7Kuh2D/k289Cbdi/2PD7Lrdstz86y1itDvcb2ijiRqjqWnJ5rsfu/QOA==}
     engines: {node: '>=16.12.0'}
     dependencies:
       prismjs: 1.29.0
