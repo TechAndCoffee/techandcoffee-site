@@ -5,9 +5,6 @@ dist/
 # dependencies
 node_modules/
 
-# logs
-pnpm-debug.log*
-
 
 # environment variables
 .env
