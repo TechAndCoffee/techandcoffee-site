@@ -1,30 +1,30 @@
 // LinkList types
 
-interface Links {
+type Links = {
    name: string;
    url: string;
 }
 
-interface File {
+type File = {
    name: string;
    icon?: string;
    description?: string;
    links: Array<Links>;
 }
 
-export interface LinkList {
+export type LinkList = {
    list: Array<File>;
 }
 
 // PhotoAlbum types
 
-interface Photo {
+type Photo = {
    url: string;
    title?: string;
    description?: string;
    inverted?: boolean;
    download_url?: string;
 }
-export interface PhotoAlbum {
+export type PhotoAlbum = {
    entries: Array<Photo>;
 }
