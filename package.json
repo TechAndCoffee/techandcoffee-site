@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "2.0.0",
+    "@astrojs/sitemap": "2.0.1",
     "@tailwindcss/typography": "0.5.9",
     "astro": "2.8.5",
     "astro-compress": "1.1.49",
