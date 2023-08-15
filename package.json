@@ -12,7 +12,7 @@
   "devDependencies": {
     "@astrojs/sitemap": "2.0.2",
     "@tailwindcss/typography": "0.5.9",
-    "astro": "2.10.7",
+    "astro": "2.10.9",
     "astro-compress": "2.0.12",
     "astro-seo": "0.7.5"
   },
