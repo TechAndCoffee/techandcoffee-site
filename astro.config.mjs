@@ -1,13 +1,36 @@
-import { defineConfig } from 'astro/config';
-import tailwind from "@astrojs/tailwind";
-import mdx from "@astrojs/mdx";
-import sitemap from "@astrojs/sitemap";
-
-import compress from "astro-compress";
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), mdx(), sitemap(), compress()],
-  output: 'static',
-  site: 'https://techandcoffee.info'
+	integrations: [
+		starlight({
+			title: "Tech and Coffee",
+			logo: {
+				light: "src/assets/tac_logo_hires.webp",
+				dark: "src/assets/tac_logo_inverted.webp"
+			},
+			favicon: "/favicon-16x16.png",
+			social: {
+				github: "https://github.com/TechAndCoffee/techandcoffee-site",
+				twitter: "https://twitter.com/techandcoffee1",
+				mastodon: "https://techhub.social/@techandcoffee",
+			},
+			tableOfContents: false,
+			pagination: false,
+			sidebar: [
+				{
+					label: "Resources",
+					autogenerate: { directory: "resources" }
+				},
+				{
+					label: "Links",
+					autogenerate: { directory: "links" }
+				}
+			],
+		}),
+	],
+
+	// Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
+	image: { service: { entrypoint: "astro/assets/services/sharp" } },
 });
