@@ -5,13 +5,15 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && npx -y pagefind --source dist",
+    "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "postbuild": "pagefind --source dist"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.7.2",
     "astro": "^2.10.5",
+    "pagefind": "^1.0.0-alpha.10",
     "sharp": "^0.32.3"
   }
 }
