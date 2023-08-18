@@ -5,10 +5,9 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && npx -y pagefind --source dist",
     "preview": "astro preview",
-    "astro": "astro",
-    "postbuild": "npx -y pagefind --source dist"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.7.2",
