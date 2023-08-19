@@ -7,8 +7,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "postbuild": "pagefind --source dist"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.7.2",
