@@ -1,9 +1,15 @@
 import { defineConfig } from "astro/config";
+import AutoImport from 'astro-auto-import';
 import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
+		AutoImport({
+			imports: [
+				{ "@astrojs/starlight/components": ["Card", "CardGrid", "LinkCard", "Tabs", "TabItem"] }
+			]
+		}),
 		starlight({
 			title: "Tech and Coffee",
 			logo: {
