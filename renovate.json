@@ -3,6 +3,8 @@
   "extends": [
     "config:base"
   ],
+  "separateMinorPatch": true,
+  "bumpVersion": "patch",
   "packageRules": [
     {
       "matchUpdateTypes": [
@@ -12,6 +14,5 @@
       "matchCurrentVersion": "!/^0/",
       "automerge": true
     }
-  ],
-  "rangeStrategy": "bump"
+  ]
 }
