@@ -1,16 +1,11 @@
 import { defineConfig } from "astro/config";
-import AutoImport from 'astro-auto-import';
 import starlight from "@astrojs/starlight";
 
 import markdoc from "@astrojs/markdoc";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [AutoImport({
-    imports: [{
-      "@astrojs/starlight/components": ["Card", "CardGrid", "LinkCard", "Tabs", "TabItem"]
-    }]
-  }), starlight({
+  integrations: [starlight({
     title: "Tech and Coffee",
     logo: {
       light: "src/assets/tac_logo_hires.webp",
