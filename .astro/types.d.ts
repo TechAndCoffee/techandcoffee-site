@@ -1,5 +1,14 @@
 declare module 'astro:content' {
 	interface Render {
+		'.mdoc': Promise<{
+			Content(props: Record<string, any>): import('astro').MarkdownInstance<{}>['Content'];
+			headings: import('astro').MarkdownHeading[];
+		}>;
+	}
+}
+
+declare module 'astro:content' {
+	interface Render {
 		'.mdx': Promise<{
 			Content: import('astro').MarkdownInstance<{}>['Content'];
 			headings: import('astro').MarkdownHeading[];
@@ -24,25 +33,6 @@ declare module 'astro:content' {
 	type Flatten<T> = T extends { [K: string]: infer U } ? U : never;
 	export type CollectionEntry<C extends keyof AnyEntryMap> = Flatten<AnyEntryMap[C]>;
 
-	// TODO: Remove this when having this fallback is no longer relevant. 2.3? 3.0? - erika, 2023-04-04
-	/**
-	 * @deprecated
-	 * `astro:content` no longer provide `image()`.
-	 *
-	 * Please use it through `schema`, like such:
-	 * ```ts
-	 * import { defineCollection, z } from "astro:content";
-	 *
-	 * defineCollection({
-	 *   schema: ({ image }) =>
-	 *     z.object({
-	 *       image: image(),
-	 *     }),
-	 * });
-	 * ```
-	 */
-	export const image: never;
-
 	// This needs to be in sync with ImageMetadata
 	export type ImageFunction = () => import('astro/zod').ZodObject<{
 		src: import('astro/zod').ZodString;
@@ -56,19 +46,16 @@ declare module 'astro:content' {
 				import('astro/zod').ZodLiteral<'tiff'>,
 				import('astro/zod').ZodLiteral<'webp'>,
 				import('astro/zod').ZodLiteral<'gif'>,
-				import('astro/zod').ZodLiteral<'svg'>
+				import('astro/zod').ZodLiteral<'svg'>,
 			]
 		>;
 	}>;
 
 	type BaseSchemaWithoutEffects =
 		| import('astro/zod').AnyZodObject
-		| import('astro/zod').ZodUnion<import('astro/zod').AnyZodObject[]>
+		| import('astro/zod').ZodUnion<[BaseSchemaWithoutEffects, ...BaseSchemaWithoutEffects[]]>
 		| import('astro/zod').ZodDiscriminatedUnion<string, import('astro/zod').AnyZodObject[]>
-		| import('astro/zod').ZodIntersection<
-				import('astro/zod').AnyZodObject,
-				import('astro/zod').AnyZodObject
-		  >;
+		| import('astro/zod').ZodIntersection<BaseSchemaWithoutEffects, BaseSchemaWithoutEffects>;
 
 	type BaseSchema =
 		| BaseSchemaWithoutEffects
@@ -99,7 +86,7 @@ declare module 'astro:content' {
 
 	export function getEntryBySlug<
 		C extends keyof ContentEntryMap,
-		E extends ValidContentEntrySlug<C> | (string & {})
+		E extends ValidContentEntrySlug<C> | (string & {}),
 	>(
 		collection: C,
 		// Note that this has to accept a regular string too, for SSR
@@ -124,7 +111,7 @@ declare module 'astro:content' {
 
 	export function getEntry<
 		C extends keyof ContentEntryMap,
-		E extends ValidContentEntrySlug<C> | (string & {})
+		E extends ValidContentEntrySlug<C> | (string & {}),
 	>(entry: {
 		collection: C;
 		slug: E;
@@ -133,7 +120,7 @@ declare module 'astro:content' {
 		: Promise<CollectionEntry<C> | undefined>;
 	export function getEntry<
 		C extends keyof DataEntryMap,
-		E extends keyof DataEntryMap[C] | (string & {})
+		E extends keyof DataEntryMap[C] | (string & {}),
 	>(entry: {
 		collection: C;
 		id: E;
@@ -142,7 +129,7 @@ declare module 'astro:content' {
 		: Promise<CollectionEntry<C> | undefined>;
 	export function getEntry<
 		C extends keyof ContentEntryMap,
-		E extends ValidContentEntrySlug<C> | (string & {})
+		E extends ValidContentEntrySlug<C> | (string & {}),
 	>(
 		collection: C,
 		slug: E
@@ -151,7 +138,7 @@ declare module 'astro:content' {
 		: Promise<CollectionEntry<C> | undefined>;
 	export function getEntry<
 		C extends keyof DataEntryMap,
-		E extends keyof DataEntryMap[C] | (string & {})
+		E extends keyof DataEntryMap[C] | (string & {}),
 	>(
 		collection: C,
 		id: E
@@ -201,48 +188,48 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
-"index.mdx": {
-	id: "index.mdx";
+"index.mdoc": {
+	id: "index.mdoc";
   slug: "index";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
-"links/galleries.mdx": {
-	id: "links/galleries.mdx";
+} & { render(): Render[".mdoc"] };
+"links/galleries.mdoc": {
+	id: "links/galleries.mdoc";
   slug: "links/galleries";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
-"links/hangouts.mdx": {
-	id: "links/hangouts.mdx";
+} & { render(): Render[".mdoc"] };
+"links/hangouts.mdoc": {
+	id: "links/hangouts.mdoc";
   slug: "links/hangouts";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
-"links/our-friends.mdx": {
-	id: "links/our-friends.mdx";
+} & { render(): Render[".mdoc"] };
+"links/our-friends.mdoc": {
+	id: "links/our-friends.mdoc";
   slug: "links/our-friends";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
-"resources/about.mdx": {
-	id: "resources/about.mdx";
+} & { render(): Render[".mdoc"] };
+"resources/about.mdoc": {
+	id: "resources/about.mdoc";
   slug: "resources/about";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
-"resources/rules.mdx": {
-	id: "resources/rules.mdx";
+} & { render(): Render[".mdoc"] };
+"resources/rules.mdoc": {
+	id: "resources/rules.mdoc";
   slug: "resources/rules";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
+} & { render(): Render[".mdoc"] };
 };
 
 	};
