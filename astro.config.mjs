@@ -13,9 +13,9 @@ export default defineConfig({
     },
     favicon: "/favicon-16x16.png",
     social: {
-      github: "https://github.com/TechAndCoffee/techandcoffee-site",
-      twitter: "https://twitter.com/techandcoffee1",
-      mastodon: "https://techhub.social/@techandcoffee"
+      "x.com": "https://twitter.com/techandcoffee1",
+      mastodon: "https://techhub.social/@techandcoffee",
+      telegram: "https://t.me/techandcoffee"
     },
     tableOfContents: false,
     pagination: false,
