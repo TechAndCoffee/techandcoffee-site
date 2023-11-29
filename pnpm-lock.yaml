@@ -9,7 +9,7 @@ dependencies:
     specifier: ^0.7.2
     version: 0.7.2(astro@3.6.3)
   '@astrojs/starlight':
-    specifier: ^0.13.0
+    specifier: ^0.13.1
     version: 0.13.1(astro@3.6.3)
   astro:
     specifier: ^3.6.3
