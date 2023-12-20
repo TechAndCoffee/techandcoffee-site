@@ -7,13 +7,13 @@ settings:
 dependencies:
   '@astrojs/markdoc':
     specifier: ^0.8.0
-    version: 0.8.0(astro@4.0.6)
+    version: 0.8.0(astro@4.0.7)
   '@astrojs/starlight':
     specifier: ^0.15.1
-    version: 0.15.1(astro@4.0.6)
+    version: 0.15.1(astro@4.0.7)
   astro:
-    specifier: ^4.0.6
-    version: 4.0.6
+    specifier: ^4.0.7
+    version: 4.0.7
   sharp:
     specifier: ^0.33.1
     version: 0.33.1
@@ -36,7 +36,7 @@ packages:
     resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
     dev: false
 
-  /@astrojs/markdoc@0.8.0(astro@4.0.6):
+  /@astrojs/markdoc@0.8.0(astro@4.0.7):
     resolution: {integrity: sha512-y2oMDoInwVcykf2RTwlrB6KSf5H5PVnrRIu7wvxO52mFgwj5v5UPv82RyLYLx3BNPlj+aIlgG+c6SUsSP8M9fQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -45,7 +45,7 @@ packages:
       '@astrojs/internal-helpers': 0.2.1
       '@astrojs/prism': 3.0.0
       '@markdoc/markdoc': 0.3.5
-      astro: 4.0.6
+      astro: 4.0.7
       esbuild: 0.19.8
       github-slugger: 2.0.0
       gray-matter: 4.0.3
@@ -58,13 +58,13 @@ packages:
       - react
     dev: false
 
-  /@astrojs/markdown-remark@4.0.0(astro@4.0.6):
+  /@astrojs/markdown-remark@4.0.0(astro@4.0.7):
     resolution: {integrity: sha512-JSrn49fJGuH/0S2TTGxLK7bNDspOakJWZVFHeP+IDFjWdghT4HtsTShS2EiISNx3zfOFBAwy5Cj4xT4U5BWNeA==}
     peerDependencies:
       astro: ^4.0.0-beta.0
     dependencies:
       '@astrojs/prism': 3.0.0
-      astro: 4.0.6
+      astro: 4.0.7
       github-slugger: 2.0.0
       import-meta-resolve: 4.0.0
       mdast-util-definitions: 6.0.0
@@ -103,16 +103,16 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx@2.0.0(astro@4.0.6):
+  /@astrojs/mdx@2.0.0(astro@4.0.7):
     resolution: {integrity: sha512-VT5HnnOETk2gmdlheSlSBtYIsS0PQF/bEgZDjhc0VngdZstR90kt1NVns/Jj8q7G5lMZp8/9ZOHwwBbAhVk2zA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       astro: ^4.0.0-beta.0
     dependencies:
-      '@astrojs/markdown-remark': 4.0.0(astro@4.0.6)
+      '@astrojs/markdown-remark': 4.0.0(astro@4.0.7)
       '@mdx-js/mdx': 3.0.0
       acorn: 8.11.2
-      astro: 4.0.6
+      astro: 4.0.7
       es-module-lexer: 1.4.1
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -143,18 +143,18 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@astrojs/starlight@0.15.1(astro@4.0.6):
+  /@astrojs/starlight@0.15.1(astro@4.0.7):
     resolution: {integrity: sha512-5AdySPQOG/+r1vHSNotQAGqhQIfF68hS8PfV+z4M2ewnrWoeCsHI3yYRFYgSRsVofcOEGTHiIryTRG/uRIvDkQ==}
     peerDependencies:
       astro: ^4.0.0
     dependencies:
-      '@astrojs/mdx': 2.0.0(astro@4.0.6)
+      '@astrojs/mdx': 2.0.0(astro@4.0.7)
       '@astrojs/sitemap': 3.0.3
       '@pagefind/default-ui': 1.0.4
       '@types/hast': 3.0.3
       '@types/mdast': 4.0.3
-      astro: 4.0.6
-      astro-expressive-code: 0.30.1(astro@4.0.6)
+      astro: 4.0.7
+      astro-expressive-code: 0.30.1(astro@4.0.7)
       bcp-47: 2.1.0
       execa: 8.0.1
       hast-util-select: 6.0.2
@@ -1283,17 +1283,17 @@ packages:
     hasBin: true
     dev: false
 
-  /astro-expressive-code@0.30.1(astro@4.0.6):
+  /astro-expressive-code@0.30.1(astro@4.0.7):
     resolution: {integrity: sha512-Dr3VbK4HvIXTT8rsvd8PuRW4uZOpfRz9J8noVSSxmx7/M7o73SBtqauBYvxXpGHnagTJPGzYOa9BQS7jDHNUVw==}
     peerDependencies:
       astro: ^3.3.0 || ^4.0.0-beta
     dependencies:
-      astro: 4.0.6
+      astro: 4.0.7
       remark-expressive-code: 0.30.1
     dev: false
 
-  /astro@4.0.6:
-    resolution: {integrity: sha512-P7CfFqWKzkJozzF6IoOC6qoI2ONndV8P3ULhGDgMiXPL7xVkWI5haTBSpyrcjBx643tVXspIRsSV/v+Cx+CjGw==}
+  /astro@4.0.7:
+    resolution: {integrity: sha512-K+Ms2AAQvi6yERPuglcI69tnHyTT44JCjzqprSjw3uOwFX7N9obpLgbhmLMH1fPFTgzt3ZD7APjmtDPN51makw==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -1338,7 +1338,7 @@ packages:
       mime: 3.0.0
       ora: 7.0.1
       p-limit: 5.0.0
-      p-queue: 7.4.1
+      p-queue: 8.0.1
       path-to-regexp: 6.2.1
       preferred-pm: 3.1.2
       probe-image-size: 7.2.3
@@ -1353,8 +1353,8 @@ packages:
       tsconfck: 3.0.0
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.0.6
-      vitefu: 0.2.5(vite@5.0.6)
+      vite: 5.0.10
+      vitefu: 0.2.5(vite@5.0.10)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.22.4
@@ -3404,17 +3404,17 @@ packages:
       p-limit: 3.1.0
     dev: false
 
-  /p-queue@7.4.1:
-    resolution: {integrity: sha512-vRpMXmIkYF2/1hLBKisKeVYJZ8S2tZ0zEAmIJgdVKP2nq0nh4qCdf8bgw+ZgKrkh71AOCaqzwbJJk1WtdcF3VA==}
-    engines: {node: '>=12'}
+  /p-queue@8.0.1:
+    resolution: {integrity: sha512-NXzu9aQJTAzbBqOt2hwsR63ea7yvxJc0PwN/zobNAudYfb1B7R08SzB4TsLeSbUCuG467NhnoT0oO6w1qRO+BA==}
+    engines: {node: '>=18'}
     dependencies:
       eventemitter3: 5.0.1
-      p-timeout: 5.1.0
+      p-timeout: 6.1.2
     dev: false
 
-  /p-timeout@5.1.0:
-    resolution: {integrity: sha512-auFDyzzzGZZZdHz3BtET9VEz0SE/uMEAx7uWfGPucfzEwwe/xH0iVeZibQmANYE/hp9T2+UUZT5m+BKyrDp3Ew==}
-    engines: {node: '>=12'}
+  /p-timeout@6.1.2:
+    resolution: {integrity: sha512-UbD77BuZ9Bc9aABo74gfXhNvzC9Tx7SxtHSh1fxvx3jTLLYvmVhiQZZrJzqqU0jKbN32kb5VOKiLEQI/3bIjgQ==}
+    engines: {node: '>=14.16'}
     dev: false
 
   /p-try@2.2.0:
@@ -4429,8 +4429,8 @@ packages:
       vfile-message: 4.0.2
     dev: false
 
-  /vite@5.0.6:
-    resolution: {integrity: sha512-MD3joyAEBtV7QZPl2JVVUai6zHms3YOmLR+BpMzLlX2Yzjfcc4gTgNi09d/Rua3F4EtC8zdwPU8eQYyib4vVMQ==}
+  /vite@5.0.10:
+    resolution: {integrity: sha512-2P8J7WWgmc355HUMlFrwofacvr98DAjoE52BfdbwQtyLH06XKwaL/FMnmKM2crF0iX4MpmMKoDlNCB1ok7zHCw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -4464,7 +4464,7 @@ packages:
       fsevents: 2.3.3
     dev: false
 
-  /vitefu@0.2.5(vite@5.0.6):
+  /vitefu@0.2.5(vite@5.0.10):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -4472,7 +4472,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.0.6
+      vite: 5.0.10
     dev: false
 
   /web-namespaces@2.0.1:
