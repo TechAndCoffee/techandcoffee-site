@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@astrojs/markdoc':
-    specifier: ^0.8.0
-    version: 0.8.0(astro@4.0.7)
+    specifier: ^0.8.1
+    version: 0.8.1(astro@4.0.7)
   '@astrojs/starlight':
     specifier: ^0.15.1
     version: 0.15.1(astro@4.0.7)
@@ -36,8 +36,8 @@ packages:
     resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
     dev: false
 
-  /@astrojs/markdoc@0.8.0(astro@4.0.7):
-    resolution: {integrity: sha512-y2oMDoInwVcykf2RTwlrB6KSf5H5PVnrRIu7wvxO52mFgwj5v5UPv82RyLYLx3BNPlj+aIlgG+c6SUsSP8M9fQ==}
+  /@astrojs/markdoc@0.8.1(astro@4.0.7):
+    resolution: {integrity: sha512-e7b8FyedDN3rEDjC6+yv9e0jXXmll8lUZ9a88sR5KNGl235lXpqvSOBsFJBsmcNd+N3swCMb78t5viyNqHwlwQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
