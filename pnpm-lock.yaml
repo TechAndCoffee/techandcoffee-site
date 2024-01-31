@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.8.3
     version: 0.8.3(astro@4.2.7)
   '@astrojs/starlight':
-    specifier: ^0.17.1
-    version: 0.17.1(astro@4.2.7)
+    specifier: ^0.17.2
+    version: 0.17.2(astro@4.2.7)
   astro:
     specifier: ^4.2.7
     version: 4.2.7
@@ -139,8 +139,8 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@astrojs/starlight@0.17.1(astro@4.2.7):
-    resolution: {integrity: sha512-Aock5ZRNucVVzv1JfyULUB3Ydoyq4tlJODEgHNdLcCVtReARrZSEmgep0+bR9j/fCKzVOa+05Lh3meoMZ5HMHw==}
+  /@astrojs/starlight@0.17.2(astro@4.2.7):
+    resolution: {integrity: sha512-2Zme8DobPaocbALX6LqkR8thDxa0RK3qikNccvwzowuYjGMzGvldt524RimFaVB0zTNrtrw2Sp1jamF1KJae8w==}
     peerDependencies:
       astro: ^4.0.0
     dependencies:
