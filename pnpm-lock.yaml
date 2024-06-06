@@ -12,8 +12,8 @@ importers:
         specifier: ^0.11.0
         version: 0.11.0(astro@4.9.3)
       '@astrojs/starlight':
-        specifier: ^0.23.3
-        version: 0.23.3(astro@4.9.3)
+        specifier: ^0.24.0
+        version: 0.24.0(astro@4.9.3)
       astro:
         specifier: ^4.9.3
         version: 4.9.3
@@ -55,8 +55,8 @@ packages:
   '@astrojs/sitemap@3.0.5':
     resolution: {integrity: sha512-60eLzNjMza3ABypiQPUC6ElOSZNZeY5CwSwgJ03hfeonl+Db9x12CCzBFdTw7A5Mq+O54xEZVUrR0tB+yWgX8w==}
 
-  '@astrojs/starlight@0.23.3':
-    resolution: {integrity: sha512-goNRS1E/E3stnGytz7Xd3ZqGdTdyMMrfPLWU9SlX5U07qxsjEOaB5jOLAP316BVzfS8fo1JTxwrF1jr8Xx2aIQ==}
+  '@astrojs/starlight@0.24.0':
+    resolution: {integrity: sha512-YUBf7TgDUMRcyoZ8S8hlnPuEvgqFuB5F7tQUwPK5GwkTC1E+gMW8zx9J/RgJAXNjQSi19s73nuF19zw/QSy5tw==}
     peerDependencies:
       astro: ^4.8.6
 
@@ -735,9 +735,6 @@ packages:
   '@shikijs/core@1.3.0':
     resolution: {integrity: sha512-7fedsBfuILDTBmrYZNFI8B6ATTxhQAasUHllHmjvSZPnoq4bULWoTpHwmuQvZ8Aq03/tAa2IGo6RXqWtHdWaCA==}
 
-  '@shikijs/core@1.5.1':
-    resolution: {integrity: sha512-xjV63pRUBvxA1LsxOUhRKLPh0uUjwBLzAKLdEuYSLIylo71sYuwDcttqNP01Ib1TZlLfO840CXHPlgUUsYFjzg==}
-
   '@shikijs/core@1.6.2':
     resolution: {integrity: sha512-guW5JeDzZ7uwOjTfCOFZ2VtVXk5tmkMzBYbKGfXsmAH1qYOej49L5jQDcGmwd6/OgvpmWhzO2GNJkQIFnbwLPQ==}
 
@@ -1085,9 +1082,6 @@ packages:
   entities@4.5.0:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
-
-  es-module-lexer@1.5.2:
-    resolution: {integrity: sha512-l60ETUTmLqbVbVHv1J4/qj+M8nq7AwMzEcg3kmJDt9dCNrTk+yHcYFf/Kw75pMDwd9mPcIGCG5LcS20SxYRzFA==}
 
   es-module-lexer@1.5.3:
     resolution: {integrity: sha512-i1gCgmR9dCl6Vil6UKPI/trA69s08g/syhiDK9TG0Nf1RJjjFI+AzoWW7sPufzkgYAn861skuCwJa0pIIHYxvg==}
@@ -1935,9 +1929,6 @@ packages:
   shiki@1.3.0:
     resolution: {integrity: sha512-9aNdQy/etMXctnPzsje1h1XIGm9YfRcSksKOGqZWXA/qP9G18/8fpz5Bjpma8bOgz3tqIpjERAd6/lLjFyzoww==}
 
-  shiki@1.5.1:
-    resolution: {integrity: sha512-vx4Ds3M3B9ZEmLeSXqBAB85osBWV8ErZfP69kuFQZozPgHc33m7spLTCUkcjwEjFm3gk3F9IdXMv8kX+v9xDHA==}
-
   shiki@1.6.2:
     resolution: {integrity: sha512-X3hSm5GzzBd/BmPmGfkueOUADLyBoZo1ojYQXhd+NU2VJn458yt4duaS0rVzC+WtqftSV7mTVvDw+OB9AHi3Eg==}
 
@@ -2289,7 +2280,7 @@ snapshots:
       '@mdx-js/mdx': 3.0.1
       acorn: 8.11.3
       astro: 4.9.3
-      es-module-lexer: 1.5.2
+      es-module-lexer: 1.5.3
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
       gray-matter: 4.0.3
@@ -2313,7 +2304,7 @@ snapshots:
       sitemap: 7.1.1
       zod: 3.23.8
 
-  '@astrojs/starlight@0.23.3(astro@4.9.3)':
+  '@astrojs/starlight@0.24.0(astro@4.9.3)':
     dependencies:
       '@astrojs/mdx': 3.0.0(astro@4.9.3)
       '@astrojs/sitemap': 3.0.5
@@ -2658,7 +2649,7 @@ snapshots:
   '@expressive-code/plugin-shiki@0.35.3':
     dependencies:
       '@expressive-code/core': 0.35.3
-      shiki: 1.5.1
+      shiki: 1.6.2
 
   '@expressive-code/plugin-text-markers@0.35.3':
     dependencies:
@@ -2866,8 +2857,6 @@ snapshots:
     optional: true
 
   '@shikijs/core@1.3.0': {}
-
-  '@shikijs/core@1.5.1': {}
 
   '@shikijs/core@1.6.2': {}
 
@@ -3265,8 +3254,6 @@ snapshots:
   emoji-regex@9.2.2: {}
 
   entities@4.5.0: {}
-
-  es-module-lexer@1.5.2: {}
 
   es-module-lexer@1.5.3: {}
 
@@ -4674,10 +4661,6 @@ snapshots:
   shiki@1.3.0:
     dependencies:
       '@shikijs/core': 1.3.0
-
-  shiki@1.5.1:
-    dependencies:
-      '@shikijs/core': 1.5.1
 
   shiki@1.6.2:
     dependencies:
