@@ -2,6 +2,10 @@
 dist/
 .output/
 
+# project files
+.idea/
+.astro/
+
 # dependencies
 node_modules/
 
